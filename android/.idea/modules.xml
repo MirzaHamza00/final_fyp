@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/67457882/flutter_plugin_android_lifecycle.iml" filepath="$PROJECT_DIR$/.idea/modules/67457882/flutter_plugin_android_lifecycle.iml" group="android/flutter_plugin_android_lifecycle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1034023705/google_maps_flutter.iml" filepath="$PROJECT_DIR$/.idea/modules/-1034023705/google_maps_flutter.iml" group="android/google_maps_flutter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1535525257/image_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1535525257/image_picker.iml" group="android/image_picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2023641187/location.iml" filepath="$PROJECT_DIR$/.idea/modules/-2023641187/location.iml" group="android/location" />
+    </modules>
+  </component>
+</project>
