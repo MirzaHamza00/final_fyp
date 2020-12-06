@@ -12,20 +12,20 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:8:10-71
-14-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:8:27-69
+14-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:8:10-71
+14-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:8:27-69
 15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:9:10-90
-15-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:9:27-88
+15-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:9:10-90
+15-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:9:27-88
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:9:91-169
-16-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:9:108-167
+16-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:9:91-169
+16-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:9:108-167
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
-17-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+17-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+17-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
 18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Include required permissions for Google Maps API to run. -->
-18-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
-18-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+18-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+18-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
@@ -38,16 +38,16 @@
 23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 24
 25    <application
-25-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:10:5-64:19
+25-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:10:5-64:19
 26        android:name="io.flutter.app.FlutterApplication"
-26-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:12:9-57
+26-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:12:9-57
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 27-->[androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:14:9-43
+29-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:14:9-43
 30        android:label="first_flutter" >
-30-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:13:9-38
+30-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:13:9-38
 31
 32        <!--
 33    <activity ... android:windowSoftInputMode="adjustPan" ></activity>
@@ -59,33 +59,33 @@
 39        -->
 40
 41        <uses-library
-41-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:24:5-83
+41-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:24:5-83
 42            android:name="org.apache.http.legacy"
-42-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:24:19-56
+42-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:24:19-56
 43            android:required="false" />
-43-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:24:57-81
+43-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:24:57-81
 44
 45        <meta-data
-45-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:25:5-119
+45-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:25:5-119
 46            android:name="com.google.android.geo.API_KEY"
-46-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:25:16-61
-47            android:value="AIzaSyCoH4NvDvgkvAuJyAJFm345MUkC3lojRrY" />
-47-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:25:62-117
+46-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:25:16-61
+47            android:value="AIzaSyB-Q6pu_qxP9eSxrFxoLn0WK_k4dXVwcHk" />
+47-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:25:62-117
 48
 49        <activity
-49-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:26:9-58:20
+49-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:26:9-58:20
 50            android:name="com.naxcentsolution.first_flutter.MainActivity"
-50-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:29:13-41
+50-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:29:13-41
 51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-51-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:32:14-145
+51-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:32:14-145
 52            android:hardwareAccelerated="true"
-52-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:34:13-47
+52-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:34:13-47
 53            android:launchMode="singleTop"
-53-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:30:13-43
+53-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:30:13-43
 54            android:theme="@style/LaunchTheme"
-54-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:31:13-47
+54-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:31:13-47
 55            android:windowSoftInputMode="adjustResize" >
-55-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:27:9-51
+55-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:27:9-51
 56
 57            <!--
 58                 Specifies an Android theme to apply to this Activity as soon as
@@ -94,11 +94,11 @@
 61                 to determine the Window background behind the Flutter UI.
 62            -->
 63            <meta-data
-63-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:41:13-44:17
+63-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:41:13-44:17
 64                android:name="io.flutter.embedding.android.NormalTheme"
-64-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:42:15-70
+64-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:42:15-70
 65                android:resource="@style/NormalTheme" />
-65-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:43:15-52
+65-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:43:15-52
 66            <!--
 67                 Displays an Android View that continues showing the launch screen
 68                 Drawable until Flutter paints its first frame, then this splash
@@ -107,21 +107,21 @@
 71                 Flutter's first frame.
 72            -->
 73            <meta-data
-73-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:50:13-53:17
+73-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:50:13-53:17
 74                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-74-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:51:15-79
+74-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:51:15-79
 75                android:resource="@drawable/launch_background" />
-75-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:52:15-61
+75-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:52:15-61
 76
 77            <intent-filter>
-77-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:54:13-57:29
+77-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:54:13-57:29
 78                <action android:name="android.intent.action.MAIN" />
-78-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:55:17-68
-78-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:55:25-66
+78-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:55:17-68
+78-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:55:25-66
 79
 80                <category android:name="android.intent.category.LAUNCHER" />
-80-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:56:17-76
-80-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:56:27-74
+80-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:56:17-76
+80-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:56:27-74
 81            </intent-filter>
 82        </activity>
 83        <!--
@@ -129,28 +129,28 @@
 85             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 86        -->
 87        <meta-data
-87-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:61:9-63:33
+87-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:61:9-63:33
 88            android:name="flutterEmbedding"
-88-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:62:13-44
+88-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:62:13-44
 89            android:value="2" />
-89-->/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/AndroidManifest.xml:63:13-30
+89-->/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:63:13-30
 90
 91        <provider
-91-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+91-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
 92            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-92-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+92-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
 93            android:authorities="com.naxcentsolution.first_flutter.flutter.image_provider"
-93-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+93-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
 94            android:exported="false"
-94-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+94-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
 95            android:grantUriPermissions="true" >
-95-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+95-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
 96            <meta-data
-96-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+96-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
 97                android:name="android.support.FILE_PROVIDER_PATHS"
-97-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+97-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 98                android:resource="@xml/flutter_image_picker_file_paths" />
-98-->[:image_picker] /Users/mirzahamza/AndroidStudioProjects/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+98-->[:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 99        </provider>
 100
 101        <activity

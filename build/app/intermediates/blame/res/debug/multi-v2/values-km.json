@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mirzahamza/AndroidStudioProjects/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
+            "outputFile": "/Users/mirzahamza/Desktop/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/values-km/values-km.xml",

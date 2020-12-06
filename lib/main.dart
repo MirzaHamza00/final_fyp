@@ -4,7 +4,6 @@ import 'package:first_flutter/SideFeatures/wether.dart';
 import 'package:first_flutter/screens/main_screen.dart';
 import 'package:first_flutter/screens/registration.dart';
 import 'package:first_flutter/screens/start.dart';
-import 'package:first_flutter/widgets/nearBy_place_module.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import './screens/auth_screen.dart';
@@ -47,7 +46,6 @@ class MyApp extends StatelessWidget {
               RegistrationScreen.routeName: (ctx) => RegistrationScreen(),
               AuthScreen.routeName: (ctx) => AuthScreen(),
               NearByPlace.routeName: (ctx) => NearByPlace(),
-              SearchPlace.routeName: (ctx) => SearchPlace(),
             },
           ),
         ));

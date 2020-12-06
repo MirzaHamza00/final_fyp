@@ -44,7 +44,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCoH4NvDvgkvAuJyAJFm345MUkC3lojRrY" />
+            android:value="AIzaSyB-Q6pu_qxP9eSxrFxoLn0WK_k4dXVwcHk" />
 
         <activity
             android:name="com.naxcentsolution.first_flutter.MainActivity"

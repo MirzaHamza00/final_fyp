@@ -3060,8 +3060,9 @@ public final class R {
     public static final int notification_tile_bg=0x7f060074;
     public static final int notify_panel_notification_icon_bg=0x7f060075;
     public static final int signin2=0x7f060076;
-    public static final int tooltip_frame_dark=0x7f060077;
-    public static final int tooltip_frame_light=0x7f060078;
+    public static final int toast_bg=0x7f060077;
+    public static final int tooltip_frame_dark=0x7f060078;
+    public static final int tooltip_frame_light=0x7f060079;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -3296,6 +3297,7 @@ public final class R {
     public static final int select_dialog_multichoice_material=0x7f090024;
     public static final int select_dialog_singlechoice_material=0x7f090025;
     public static final int support_simple_spinner_dropdown_item=0x7f090026;
+    public static final int toast_custom=0x7f090027;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0a0000;

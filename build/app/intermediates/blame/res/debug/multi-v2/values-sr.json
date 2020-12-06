@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mirzahamza/AndroidStudioProjects/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml",
+            "outputFile": "/Users/mirzahamza/Desktop/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/af38168d7c54703f54dd1bce529cad9f/jetified-play-services-basement-17.2.1/res/values-sr/values.xml",

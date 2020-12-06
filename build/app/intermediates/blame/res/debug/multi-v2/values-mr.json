@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mirzahamza/AndroidStudioProjects/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml",
+            "outputFile": "/Users/mirzahamza/Desktop/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6210bc4e94e1858432d46cb633a06a21/appcompat-1.0.1/res/values-mr/values-mr.xml",

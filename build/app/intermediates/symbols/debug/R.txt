@@ -643,8 +643,9 @@ int drawable notification_template_icon_low_bg 0x7f060073
 int drawable notification_tile_bg 0x7f060074
 int drawable notify_panel_notification_icon_bg 0x7f060075
 int drawable signin2 0x7f060076
-int drawable tooltip_frame_dark 0x7f060077
-int drawable tooltip_frame_light 0x7f060078
+int drawable toast_bg 0x7f060077
+int drawable tooltip_frame_dark 0x7f060078
+int drawable tooltip_frame_light 0x7f060079
 int id ALT 0x7f070000
 int id CTRL 0x7f070001
 int id FUNCTION 0x7f070002
@@ -873,6 +874,7 @@ int layout select_dialog_item_material 0x7f090023
 int layout select_dialog_multichoice_material 0x7f090024
 int layout select_dialog_singlechoice_material 0x7f090025
 int layout support_simple_spinner_dropdown_item 0x7f090026
+int layout toast_custom 0x7f090027
 int mipmap ic_launcher 0x7f0a0000
 int string abc_action_bar_home_description 0x7f0b0000
 int string abc_action_bar_up_description 0x7f0b0001

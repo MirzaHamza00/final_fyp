@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mirzahamza/AndroidStudioProjects/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "outputFile": "/Users/mirzahamza/Desktop/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/res/values-or/values.xml",

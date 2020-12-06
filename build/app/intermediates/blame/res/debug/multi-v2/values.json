@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mirzahamza/AndroidStudioProjects/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/mirzahamza/Desktop/first_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/af38168d7c54703f54dd1bce529cad9f/jetified-play-services-basement-17.2.1/res/values/values.xml",
@@ -78,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mirzahamza/AndroidStudioProjects/first_flutter/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/mirzahamza/Desktop/first_flutter/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
