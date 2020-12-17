@@ -11,10 +11,11 @@ MERGED from [:google_api_availability] /Users/mirzahamza/Desktop/first_flutter/b
 MERGED from [:google_maps_flutter] /Users/mirzahamza/Desktop/first_flutter/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/mirzahamza/Desktop/first_flutter/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
-MERGED from [:location_web] /Users/mirzahamza/Desktop/first_flutter/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:maps_launcher] /Users/mirzahamza/Desktop/first_flutter/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:location_permissions] /Users/mirzahamza/Desktop/first_flutter/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:permission_handler] /Users/mirzahamza/Desktop/first_flutter/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2793b860c5976b2c00e6592e6b1c688e/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:17:1-29:12
@@ -96,6 +97,8 @@ application
 ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:10:5-64:19
 MERGED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
 MERGED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2793b860c5976b2c00e6592e6b1c688e/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2793b860c5976b2c00e6592e6b1c688e/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
@@ -192,14 +195,16 @@ MERGED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_
 MERGED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/mirzahamza/Desktop/first_flutter/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/mirzahamza/Desktop/first_flutter/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:location_web] /Users/mirzahamza/Desktop/first_flutter/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:location_web] /Users/mirzahamza/Desktop/first_flutter/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:maps_launcher] /Users/mirzahamza/Desktop/first_flutter/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:maps_launcher] /Users/mirzahamza/Desktop/first_flutter/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:location_permissions] /Users/mirzahamza/Desktop/first_flutter/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:location_permissions] /Users/mirzahamza/Desktop/first_flutter/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /Users/mirzahamza/Desktop/first_flutter/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /Users/mirzahamza/Desktop/first_flutter/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2793b860c5976b2c00e6592e6b1c688e/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2793b860c5976b2c00e6592e6b1c688e/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
@@ -304,6 +309,14 @@ ADDED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_p
 		ADDED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 	android:name
 		ADDED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 	android:name

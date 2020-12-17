@@ -8,7 +8,23 @@ class MainModule extends StatelessWidget {
   MainModule(this.id, this.title, this.imagePath);
 
   void selectCategory(BuildContext ctx) {
-    Navigator.of(ctx).pushNamed('poolingtour');
+    if (id == 't1') {
+      Navigator.of(ctx).pushNamed('costEstimate');
+    } else if (id == 't2') {
+      Navigator.of(ctx).pushNamed('famousPlace');
+    } else if (id == 't3') {
+      Navigator.of(ctx).pushNamed('poolingtour');
+    } else if (id == 't4') {
+      Navigator.of(ctx).pushNamed('groupTour');
+    } else if (id == 't5') {
+      Navigator.of(ctx).pushNamed('recommended');
+    } else if (id == 't6') {
+      Navigator.of(ctx).pushNamed('TrendingTour');
+    } else if (id == 't7') {
+      Navigator.of(ctx).pushNamed('travelAgent');
+    } else {
+      Navigator.of(ctx).pushNamed('hotelBooking');
+    }
   }
 
   @override
@@ -24,49 +40,41 @@ class MainModule extends StatelessWidget {
         onTap: () => selectCategory(context),
         splashColor: Colors.blue[900],
         borderRadius: BorderRadius.circular(15),
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                padding: EdgeInsets.only(
-                  top: 10.0,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Container(
+                  width: 40,
+                  height: 40,
+                  child: Image.asset(
+                    imagePath,
+                    fit: BoxFit.cover,
+                  ),
                 ),
-                width: 40,
-                height: 40,
-                child: Image.asset(
-                  imagePath,
-                  fit: BoxFit.cover,
+                SizedBox(
+                  height: deviceSize.height * 0.01,
                 ),
-              ),
-              SizedBox(
-                height: deviceSize.height * 0.01,
-              ),
-              Center(
-                child: Container(
-                  padding: const EdgeInsets.only(top: 10, left: 10, right: 8),
-                  child: Text(
-                    title,
-                    style: TextStyle(
-                      fontSize: deviceSize.height * 0.02,
-                      fontWeight: FontWeight.w600,
+                Center(
+                  child: Container(
+                    padding: const EdgeInsets.only(top: 10, left: 10, right: 8),
+                    child: Text(
+                      title,
+                      style: TextStyle(
+                        fontSize: deviceSize.width * 0.04,
+                        fontWeight: FontWeight.w600,
+                      ),
                     ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
-    );
-  }
-}
-
-class PoolingTour extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Text('PoolingTour'),
     );
   }
 }

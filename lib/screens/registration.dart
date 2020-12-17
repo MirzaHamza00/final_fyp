@@ -178,16 +178,6 @@ class _AuthCardState extends State<AuthCard> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                // Text(
-                //   'UserName',
-                //   style: TextStyle(
-                //     color: Colors.white,
-                //     fontSize: 22,
-                //   ),
-                // ),
-                // SizedBox(
-                //   height: deviceSize.height * 0.01,
-                // ),
                 Container(
                   height: deviceSize.height * 0.11,
                   width: deviceSize.width * 0.75,
@@ -208,12 +198,6 @@ class _AuthCardState extends State<AuthCard> {
                       ),
                       focusColor: Colors.white,
                       labelText: 'User Name',
-                      // hintText: 'Type Here...',
-                      // hintStyle: TextStyle(
-                      //   color: Colors.white,
-                      //   fontSize: 18,
-                      //   fontWeight: FontWeight.w300,
-                      // ),
                       labelStyle: TextStyle(
                         color: Colors.white,
                         fontSize: 18,

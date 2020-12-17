@@ -133,7 +133,7 @@ class _NearByPlaceState extends State<NearByPlace> {
               'NearBy Places',
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: CupertinoColors.white,
+                color: Colors.white,
               ),
             ),
           ),

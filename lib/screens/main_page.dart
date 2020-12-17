@@ -96,20 +96,23 @@ class _MainPageState extends State<MainPage> {
 
   Expanded buildGridView() {
     return Expanded(
-      child: GridView(
-        padding: const EdgeInsets.all(25),
-        children: Module_Data.map(
-          (catData) => MainModule(
-            catData.id,
-            catData.title,
-            catData.imagePath,
+      child: Container(
+        width: MediaQuery.of(context).size.width * 0.95,
+        child: GridView(
+          padding: const EdgeInsets.all(25),
+          children: Module_Data.map(
+            (catData) => MainModule(
+              catData.id,
+              catData.title,
+              catData.imagePath,
+            ),
+          ).toList(),
+          gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+            maxCrossAxisExtent: 200,
+            childAspectRatio: 1.33,
+            crossAxisSpacing: 10,
+            mainAxisSpacing: 15,
           ),
-        ).toList(),
-        gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-          maxCrossAxisExtent: 200,
-          childAspectRatio: 1.29,
-          crossAxisSpacing: 10,
-          mainAxisSpacing: 15,
         ),
       ),
     );

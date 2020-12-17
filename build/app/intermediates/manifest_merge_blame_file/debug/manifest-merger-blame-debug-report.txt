@@ -154,20 +154,28 @@
 99        </provider>
 100
 101        <activity
-101-->[com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
-102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-102-->[com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+101-->[:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+102            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+102-->[:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
 103            android:exported="false"
-103-->[com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
-104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-104-->[com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
-105
-106        <meta-data
-106-->[com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/af38168d7c54703f54dd1bce529cad9f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
-107            android:name="com.google.android.gms.version"
-107-->[com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/af38168d7c54703f54dd1bce529cad9f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
-108            android:value="@integer/google_play_services_version" />
-108-->[com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/af38168d7c54703f54dd1bce529cad9f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
-109    </application>
-110
-111</manifest>
+103-->[:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+104            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+104-->[:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+105        <activity
+105-->[com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f81e9fffe318fdc5660099e12e35729e/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/af38168d7c54703f54dd1bce529cad9f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/af38168d7c54703f54dd1bce529cad9f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/af38168d7c54703f54dd1bce529cad9f/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+113    </application>
+114
+115</manifest>
