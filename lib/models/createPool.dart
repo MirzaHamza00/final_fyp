@@ -49,8 +49,6 @@ class _CreatePoolState extends State<CreatePool> {
 
       setState(() {
         cor = coordinates;
-        print("Latitude: ${cor.latitude}");
-        print("Longitude: ${cor.longitude}");
       });
     } catch (e) {
       print(e);
@@ -550,7 +548,9 @@ class _CreatePoolState extends State<CreatePool> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Text(
-                            DateFormat.yMMMd().format(selectedDate),
+                            DateFormat.yMd().format(selectedDate) +
+                                '   ' +
+                                DateFormat.Hm().format(selectedDate),
                             style: TextStyle(
                               fontSize: 19,
                               fontWeight: FontWeight.bold,
@@ -558,64 +558,74 @@ class _CreatePoolState extends State<CreatePool> {
                             ),
                           ),
                           FlatButton(
-                            onPressed: () => _selectDate(context),
-                            child: Text(
-                              'Select date',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 21,
-                              ),
-                            ),
-                            //  color: Colors.greenAccent,
-                          ),
-                        ],
-                      ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          Expanded(
-                            child: Text(
-                              selectedTime == null
-                                  ? _dateTime.hour.toString().padLeft(2, '0') +
-                                      ':' +
-                                      _dateTime.minute
-                                          .toString()
-                                          .padLeft(2, '0')
-                                  : selectedTime,
-                              style: TextStyle(
-                                fontSize: 19,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.grey,
-                              ),
-                            ),
-                          ),
-                          FlatButton(
                             onPressed: () {
-                              DatePicker.showTime12hPicker(
-                                context,
-                                showTitleActions: true,
-                                onConfirm: (date) {
-                                  setState(() {
-                                    selectedTime = DateFormat.jm().format(date);
-                                  });
-                                },
-                                locale: LocaleType.en,
-                              );
+                              DatePicker.showDateTimePicker(context,
+                                  showTitleActions: true, onConfirm: (date) {
+                                setState(() {
+                                  selectedDate = date;
+                                });
+                              }, currentTime: DateTime(2021, 1, 1, 12, 12, 12));
+
+                              //       _selectDate(context);
                             },
+
                             child: Text(
-                              'Select Time',
+                              'Date & Time',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
-                                fontSize: 21,
+                                fontSize: 19,
                               ),
                             ),
                             //  color: Colors.greenAccent,
                           ),
                         ],
                       ),
+                      // Row(
+                      //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      //   mainAxisSize: MainAxisSize.min,
+                      //   children: <Widget>[
+                      //     Expanded(
+                      //       child: Text(
+                      //         selectedTime == null
+                      //             ? _dateTime.hour.toString().padLeft(2, '0') +
+                      //                 ':' +
+                      //                 _dateTime.minute
+                      //                     .toString()
+                      //                     .padLeft(2, '0')
+                      //             : selectedTime,
+                      //         style: TextStyle(
+                      //           fontSize: 19,
+                      //           fontWeight: FontWeight.bold,
+                      //           color: Colors.grey,
+                      //         ),
+                      //       ),
+                      //     ),
+                      //     FlatButton(
+                      //       onPressed: () {
+                      //         DatePicker.showTime12hPicker(
+                      //           context,
+                      //           showTitleActions: true,
+                      //           onConfirm: (date) {
+                      //             setState(() {
+                      //               selectedTime = DateFormat.jm().format(date);
+                      //             });
+                      //           },
+                      //           locale: LocaleType.en,
+                      //         );
+                      //       },
+                      //       child: Text(
+                      //         'Select Time',
+                      //         style: TextStyle(
+                      //           color: Colors.white,
+                      //           fontWeight: FontWeight.bold,
+                      //           fontSize: 21,
+                      //         ),
+                      //       ),
+                      //       //  color: Colors.greenAccent,
+                      //     ),
+                      //   ],
+                      // ),
                       // SizedBox(
                       //   height: deviceSize.height * 0.02,
                       // ),
@@ -684,5 +694,37 @@ class _CreatePoolState extends State<CreatePool> {
         ),
       ),
     );
+  }
+}
+
+class CustomPicker extends CommonPickerModel {
+  String digits(int value, int length) {
+    return '$value'.padLeft(length, "0");
+  }
+
+  CustomPicker({DateTime currentTime, LocaleType locale})
+      : super(locale: locale) {
+    this.currentTime = currentTime ?? DateTime.now();
+    this.setLeftIndex(this.currentTime.hour);
+    this.setMiddleIndex(this.currentTime.minute);
+    this.setRightIndex(this.currentTime.second);
+  }
+
+  @override
+  String leftStringAtIndex(int index) {
+    if (index >= 0 && index < 24) {
+      return this.digits(index, 2);
+    } else {
+      return null;
+    }
+  }
+
+  @override
+  String middleStringAtIndex(int index) {
+    if (index >= 0 && index < 60) {
+      return this.digits(index, 2);
+    } else {
+      return null;
+    }
   }
 }

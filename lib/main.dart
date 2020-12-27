@@ -10,6 +10,7 @@ import 'package:first_flutter/SideFeatures/nearBy_Places.dart';
 import 'package:first_flutter/SideFeatures/wether.dart';
 import 'package:first_flutter/models/createGroup.dart';
 import 'package:first_flutter/models/createPool.dart';
+import 'package:first_flutter/models/createTravel.dart';
 import 'package:first_flutter/models/poolMap.dart';
 import 'package:first_flutter/screens/main_screen.dart';
 import './models/groupMap.dart';
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
           },
           child: MaterialApp(
             title: 'MyShop',
+            debugShowCheckedModeBanner: false,
             // theme: ThemeData(
             //   //  primarySwatch: Colors.purple,
             //   primaryColor: Colors.white,
@@ -68,6 +70,7 @@ class MyApp extends StatelessWidget {
               PoolMap.routeName: (ctx) => PoolMap(),
               CreateGroup.routeName: (ctx) => CreateGroup(),
               CreatePool.routeName: (ctx) => CreatePool(),
+              CreateTravelTour.routeName: (ctx) => CreateTravelTour(),
             },
           ),
         ));
