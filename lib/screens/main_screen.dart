@@ -24,12 +24,15 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
+    final deviceOrient = MediaQuery.of(context).orientation;
     return SafeArea(
       child: Scaffold(
         body: _pageOptions[selectedPage],
         bottomNavigationBar: ConvexAppBar(
           curveSize: deviceSize.height * 0.1,
-          height: deviceSize.height * 0.065,
+          height: deviceOrient != Orientation.landscape
+              ? deviceSize.height * 0.065
+              : 40,
           backgroundColor: Colors.blue[900],
           style: TabStyle.flip,
           items: [

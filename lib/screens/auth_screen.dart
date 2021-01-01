@@ -51,52 +51,54 @@ class AuthScreen extends StatelessWidget {
                       vertical: deviceSize.height * 0.04,
                       horizontal: deviceSize.width * 0.1,
                     ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        GestureDetector(
-                          behavior: HitTestBehavior.opaque,
-                          onTap: () {
-                            Navigator.of(context).pop();
-                            Navigator.of(context).pushNamed('startpage');
-                          },
-                          child: Container(
-                            width: deviceSize.width * 0.3,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Icon(
-                                  Icons.arrow_back,
-                                  color: Colors.white,
-                                  size: 23,
-                                ),
-                                SizedBox(
-                                  width: deviceSize.width * 0.02,
-                                ),
-                                Text(
-                                  'Back',
-                                  style: TextStyle(
-                                    fontSize: 23,
+                    child: SingleChildScrollView(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          GestureDetector(
+                            behavior: HitTestBehavior.opaque,
+                            onTap: () {
+                              Navigator.of(context).pop();
+                              Navigator.of(context).pushNamed('startpage');
+                            },
+                            child: Container(
+                              width: deviceSize.width * 0.3,
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Icon(
+                                    Icons.arrow_back,
                                     color: Colors.white,
+                                    size: 23,
                                   ),
-                                ),
-                              ],
+                                  SizedBox(
+                                    width: deviceSize.width * 0.02,
+                                  ),
+                                  Text(
+                                    'Back',
+                                    style: TextStyle(
+                                      fontSize: 23,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
-                        ),
-                        SizedBox(
-                          height: deviceSize.height * 0.03,
-                        ),
-                        Text(
-                          'Sign In',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 40,
-                            fontWeight: FontWeight.bold,
+                          SizedBox(
+                            height: deviceSize.height * 0.03,
                           ),
-                        ),
-                      ],
+                          Text(
+                            'Sign In',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 40,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ),
@@ -140,6 +142,8 @@ class _AuthCardState extends State<AuthCard> {
   static const Color fieldHexColor = Color(0xff4a5165);
   // final _passwordController = TextEditingController();
 
+  bool _passwordVisible = true;
+
   Future<void> _submit() async {
     if (!_formKey.currentState.validate()) {
       // Invalid!
@@ -160,6 +164,7 @@ class _AuthCardState extends State<AuthCard> {
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
+    final deviceOrient = MediaQuery.of(context).orientation;
     //final double top = deviceSize.height * -0.04;
     return Column(
       children: [
@@ -186,7 +191,9 @@ class _AuthCardState extends State<AuthCard> {
                   height: deviceSize.height * 0.01,
                 ),
                 Container(
-                  height: deviceSize.height * 0.093,
+                  height: deviceOrient != Orientation.landscape
+                      ? deviceSize.height * 0.093
+                      : 80,
                   child: TextFormField(
                     onTap: () {
                       check = false;
@@ -282,7 +289,9 @@ class _AuthCardState extends State<AuthCard> {
                   height: deviceSize.height * 0.01,
                 ),
                 Container(
-                  height: deviceSize.height * 0.093,
+                  height: deviceOrient != Orientation.landscape
+                      ? deviceSize.height * 0.093
+                      : 80,
                   child: TextFormField(
                     onTap: () {
                       check = false;
@@ -299,6 +308,19 @@ class _AuthCardState extends State<AuthCard> {
                     ),
                     cursorColor: Colors.pink,
                     decoration: InputDecoration(
+                      suffixIcon: GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            _passwordVisible = !_passwordVisible;
+                          });
+                        },
+                        child: Icon(
+                          _passwordVisible
+                              ? Icons.visibility
+                              : Icons.visibility_off,
+                          color: backHexColor,
+                        ),
+                      ),
                       contentPadding: new EdgeInsets.all(10),
                       fillColor: fieldHexColor,
                       filled: true,
@@ -356,7 +378,7 @@ class _AuthCardState extends State<AuthCard> {
                       _passFocus.unfocus();
                       _submit();
                     },
-                    obscureText: true,
+                    obscureText: _passwordVisible,
                     validator: (value) {
                       if (value.isEmpty) {
                         return 'Enter Password';

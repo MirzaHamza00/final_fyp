@@ -21,7 +21,6 @@ class _CreateTravelTourState extends State<CreateTravelTour> {
   Color backHexColor = Color(0xff1D2553);
   DateTime selectedDate = DateTime.now();
   var selectedTime;
-  DateTime _dateTime = DateTime.now();
   TextEditingController _controller = TextEditingController();
   var city;
   var check = false;
@@ -53,19 +52,6 @@ class _CreateTravelTourState extends State<CreateTravelTour> {
     } catch (e) {
       print(e);
     }
-  }
-
-  _selectDate(BuildContext context) async {
-    final DateTime picked = await showDatePicker(
-      context: context,
-      initialDate: selectedDate, // Refer step 1
-      firstDate: DateTime(2000),
-      lastDate: DateTime(2025),
-    );
-    if (picked != null && picked != selectedDate)
-      setState(() {
-        selectedDate = picked;
-      });
   }
 
   @override
@@ -549,7 +535,7 @@ class _CreateTravelTourState extends State<CreateTravelTour> {
                         children: <Widget>[
                           Text(
                             DateFormat.yMd().format(selectedDate) +
-                                '   ' +
+                                ' | ' +
                                 DateFormat.Hm().format(selectedDate),
                             style: TextStyle(
                               fontSize: 19,
@@ -557,27 +543,31 @@ class _CreateTravelTourState extends State<CreateTravelTour> {
                               color: Colors.grey,
                             ),
                           ),
-                          FlatButton(
-                            onPressed: () {
-                              DatePicker.showDateTimePicker(context,
-                                  showTitleActions: true, onConfirm: (date) {
-                                setState(() {
-                                  selectedDate = date;
-                                });
-                              }, currentTime: DateTime(2021, 1, 1, 12, 12, 12));
+                          Expanded(
+                            child: FlatButton(
+                              onPressed: () {
+                                DatePicker.showDateTimePicker(context,
+                                    showTitleActions: true, onConfirm: (date) {
+                                  setState(() {
+                                    selectedDate = date;
+                                  });
+                                },
+                                    currentTime:
+                                        DateTime(2021, 1, 1, 12, 12, 12));
 
-                              //       _selectDate(context);
-                            },
+                                //       _selectDate(context);
+                              },
 
-                            child: Text(
-                              'Date & Time',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 21,
+                              child: Text(
+                                'Date & Time',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 19,
+                                ),
                               ),
+                              //  color: Colors.greenAccent,
                             ),
-                            //  color: Colors.greenAccent,
                           ),
                         ],
                       ),

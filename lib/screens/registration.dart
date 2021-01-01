@@ -167,9 +167,11 @@ class _AuthCardState extends State<AuthCard> {
     super.dispose();
   }
 
+  bool _passwordVisible = true;
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
+    final deviceOrient = MediaQuery.of(context).orientation;
     return SingleChildScrollView(
       child: Column(
         children: [
@@ -179,7 +181,9 @@ class _AuthCardState extends State<AuthCard> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Container(
-                  height: deviceSize.height * 0.11,
+                  height: deviceOrient != Orientation.landscape
+                      ? deviceSize.height * 0.11
+                      : 80,
                   width: deviceSize.width * 0.75,
                   child: TextFormField(
                     style: TextStyle(
@@ -244,21 +248,11 @@ class _AuthCardState extends State<AuthCard> {
                     },
                   ),
                 ),
-                // SizedBox(
-                //   height: deviceSize.height * 0.02,
-                // ),
-                // Text(
-                //   'Email',
-                //   style: TextStyle(
-                //     color: Colors.white,
-                //     fontSize: 22,
-                //   ),
-                // ),
-                // SizedBox(
-                //   height: deviceSize.height * 0.01,
-                // ),
+
                 Container(
-                  height: deviceSize.height * 0.11,
+                  height: deviceOrient != Orientation.landscape
+                      ? deviceSize.height * 0.11
+                      : 80,
                   width: deviceSize.width * 0.75,
                   child: TextFormField(
                     style: TextStyle(
@@ -338,7 +332,9 @@ class _AuthCardState extends State<AuthCard> {
                 // ),
                 Container(
                   width: deviceSize.width * 0.75,
-                  height: deviceSize.height * 0.11,
+                  height: deviceOrient != Orientation.landscape
+                      ? deviceSize.height * 0.11
+                      : 80,
                   child: TextFormField(
                     style: TextStyle(
                       color: Colors.white,
@@ -419,7 +415,9 @@ class _AuthCardState extends State<AuthCard> {
                 //   height: deviceSize.height * 0.02,
                 // ),
                 Container(
-                  height: deviceSize.height * 0.11,
+                  height: deviceOrient != Orientation.landscape
+                      ? deviceSize.height * 0.11
+                      : 80,
                   width: deviceSize.width * 0.75,
                   child: TextFormField(
                     style: TextStyle(
@@ -428,6 +426,19 @@ class _AuthCardState extends State<AuthCard> {
                     ),
                     cursorColor: Colors.pink,
                     decoration: InputDecoration(
+                      suffixIcon: GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            _passwordVisible = !_passwordVisible;
+                          });
+                        },
+                        child: Icon(
+                          _passwordVisible
+                              ? Icons.visibility
+                              : Icons.visibility_off,
+                          color: backHexColor,
+                        ),
+                      ),
                       contentPadding: new EdgeInsets.all(10),
                       errorStyle: TextStyle(
                         color: Colors.red,
@@ -470,7 +481,7 @@ class _AuthCardState extends State<AuthCard> {
                         ),
                       ),
                     ),
-                    obscureText: true,
+                    obscureText: _passwordVisible,
                     controller: _passwordController,
                     focusNode: _passFocus,
                     onFieldSubmitted: (value) {
@@ -495,7 +506,9 @@ class _AuthCardState extends State<AuthCard> {
                 // ),
 
                 Container(
-                  height: deviceSize.height * 0.11,
+                  height: deviceOrient != Orientation.landscape
+                      ? deviceSize.height * 0.11
+                      : 80,
                   width: deviceSize.width * 0.75,
                   child: TextFormField(
                     style: TextStyle(
@@ -504,6 +517,19 @@ class _AuthCardState extends State<AuthCard> {
                     ),
                     cursorColor: Colors.pink,
                     decoration: InputDecoration(
+                      suffixIcon: GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            _passwordVisible = !_passwordVisible;
+                          });
+                        },
+                        child: Icon(
+                          _passwordVisible
+                              ? Icons.visibility
+                              : Icons.visibility_off,
+                          color: backHexColor,
+                        ),
+                      ),
                       contentPadding: new EdgeInsets.all(10),
                       counterText: ' ',
                       errorStyle: TextStyle(
@@ -552,7 +578,7 @@ class _AuthCardState extends State<AuthCard> {
                       _submit();
                     },
                     textInputAction: TextInputAction.done,
-                    obscureText: true,
+                    obscureText: _passwordVisible,
                     validator: (value) {
                       if (value.isEmpty) {
                         return 'Enter confirm Password';
@@ -572,8 +598,12 @@ class _AuthCardState extends State<AuthCard> {
                 // ),
                 Center(
                   child: Container(
-                    width: deviceSize.width * 0.34,
-                    height: deviceSize.height * 0.072,
+                    width: deviceOrient != Orientation.landscape
+                        ? deviceSize.height * 0.19
+                        : 140,
+                    height: deviceOrient != Orientation.landscape
+                        ? deviceSize.height * 0.07
+                        : 40,
                     child: RaisedButton(
                       splashColor: Colors.white,
                       onPressed: () => _submit(),

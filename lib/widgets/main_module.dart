@@ -30,6 +30,7 @@ class MainModule extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
+    final deviceOrient = MediaQuery.of(context).orientation;
     return Card(
       elevation: 5,
       shadowColor: Colors.white,
@@ -48,15 +49,17 @@ class MainModule extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
-                  width: 40,
-                  height: 40,
+                  width: deviceOrient != Orientation.landscape ? 40 : 20,
+                  height: deviceOrient != Orientation.landscape ? 40 : 20,
                   child: Image.asset(
                     imagePath,
-                    fit: BoxFit.cover,
+                    fit: BoxFit.fill,
                   ),
                 ),
                 SizedBox(
-                  height: deviceSize.height * 0.01,
+                  height: deviceOrient != Orientation.landscape
+                      ? deviceSize.height * 0.01
+                      : 0,
                 ),
                 Center(
                   child: Container(
@@ -64,7 +67,9 @@ class MainModule extends StatelessWidget {
                     child: Text(
                       title,
                       style: TextStyle(
-                        fontSize: deviceSize.width * 0.04,
+                        fontSize: deviceOrient != Orientation.landscape
+                            ? deviceSize.width * 0.04
+                            : 14,
                         fontWeight: FontWeight.w600,
                       ),
                     ),

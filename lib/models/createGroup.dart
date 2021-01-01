@@ -75,6 +75,8 @@ class _CreateGroupState extends State<CreateGroup> {
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
+
+    final deviceOrient = MediaQuery.of(context).orientation;
     return Scaffold(
       backgroundColor: Color(0xff262E5E),
       body: SingleChildScrollView(
@@ -106,7 +108,9 @@ class _CreateGroupState extends State<CreateGroup> {
                           ),
                           Expanded(
                             child: Container(
-                              height: deviceSize.height * 0.099,
+                              height: deviceOrient != Orientation.landscape
+                                  ? deviceSize.height * 0.099
+                                  : 90,
                               // width: double.infinity,
                               child: TextFormField(
                                 style: TextStyle(
@@ -172,9 +176,9 @@ class _CreateGroupState extends State<CreateGroup> {
                           ),
                         ],
                       ),
-                      SizedBox(
-                        height: deviceSize.height * 0.006,
-                      ),
+                      // SizedBox(
+                      //   height: deviceSize.height * 0.006,
+                      // ),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
@@ -188,7 +192,9 @@ class _CreateGroupState extends State<CreateGroup> {
                           ),
                           Expanded(
                             child: Container(
-                              height: deviceSize.height * 0.099,
+                              height: deviceOrient != Orientation.landscape
+                                  ? deviceSize.height * 0.099
+                                  : 90,
                               child: TextFormField(
                                 controller: _controller,
                                 onEditingComplete: () {

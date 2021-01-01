@@ -19,6 +19,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
+    final deviceOrient = MediaQuery.of(context).orientation;
     return SafeArea(
       child: Container(
         decoration: BoxDecoration(
@@ -72,12 +73,14 @@ class _MainPageState extends State<MainPage> {
         itemBuilder: (BuildContext context, int itemIndex) => Container(
           child: Image.asset(
             imgList[itemIndex],
-            fit: BoxFit.cover,
+            fit: BoxFit.fill,
             width: double.infinity,
           ),
         ),
         options: CarouselOptions(
-          height: 180,
+          height: MediaQuery.of(context).orientation != Orientation.landscape
+              ? 180
+              : 140,
           aspectRatio: 16 / 9,
           viewportFraction: 0.8,
           initialPage: 0,
@@ -109,7 +112,10 @@ class _MainPageState extends State<MainPage> {
           ).toList(),
           gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 200,
-            childAspectRatio: 1.33,
+            childAspectRatio:
+                MediaQuery.of(context).orientation != Orientation.landscape
+                    ? 1.33
+                    : 2,
             crossAxisSpacing: 10,
             mainAxisSpacing: 15,
           ),

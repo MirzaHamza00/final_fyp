@@ -21,7 +21,6 @@ class _CreatePoolState extends State<CreatePool> {
   Color backHexColor = Color(0xff1D2553);
   DateTime selectedDate = DateTime.now();
   var selectedTime;
-  DateTime _dateTime = DateTime.now();
   TextEditingController _controller = TextEditingController();
   var city;
   var check = false;
@@ -55,22 +54,10 @@ class _CreatePoolState extends State<CreatePool> {
     }
   }
 
-  _selectDate(BuildContext context) async {
-    final DateTime picked = await showDatePicker(
-      context: context,
-      initialDate: selectedDate, // Refer step 1
-      firstDate: DateTime(2000),
-      lastDate: DateTime(2025),
-    );
-    if (picked != null && picked != selectedDate)
-      setState(() {
-        selectedDate = picked;
-      });
-  }
-
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
+    final deviceOrient = MediaQuery.of(context).orientation;
     return Scaffold(
       backgroundColor: Color(0xff262E5E),
       body: SingleChildScrollView(
@@ -102,8 +89,9 @@ class _CreatePoolState extends State<CreatePool> {
                           ),
                           Expanded(
                             child: Container(
-                              height: deviceSize.height * 0.099,
-                              // width: double.infinity,
+                              height: deviceOrient != Orientation.landscape
+                                  ? deviceSize.height * 0.099
+                                  : 90, // width: double.infinity,
                               child: TextFormField(
                                 textCapitalization: TextCapitalization.words,
                                 style: TextStyle(
@@ -184,7 +172,9 @@ class _CreatePoolState extends State<CreatePool> {
                           ),
                           Expanded(
                             child: Container(
-                              height: deviceSize.height * 0.099,
+                              height: deviceOrient != Orientation.landscape
+                                  ? deviceSize.height * 0.099
+                                  : 90,
                               child: TextFormField(
                                 textCapitalization: TextCapitalization.words,
                                 controller: _controller,
@@ -404,7 +394,8 @@ class _CreatePoolState extends State<CreatePool> {
                             ),
                           ),
                           SizedBox(
-                            width: 30,
+                            width:
+                                deviceOrient != Orientation.landscape ? 30 : 0,
                           ),
                           Expanded(
                             child: TextFormField(
@@ -549,7 +540,7 @@ class _CreatePoolState extends State<CreatePool> {
                         children: <Widget>[
                           Text(
                             DateFormat.yMd().format(selectedDate) +
-                                '   ' +
+                                ' | ' +
                                 DateFormat.Hm().format(selectedDate),
                             style: TextStyle(
                               fontSize: 19,
@@ -557,27 +548,31 @@ class _CreatePoolState extends State<CreatePool> {
                               color: Colors.grey,
                             ),
                           ),
-                          FlatButton(
-                            onPressed: () {
-                              DatePicker.showDateTimePicker(context,
-                                  showTitleActions: true, onConfirm: (date) {
-                                setState(() {
-                                  selectedDate = date;
-                                });
-                              }, currentTime: DateTime(2021, 1, 1, 12, 12, 12));
+                          Expanded(
+                            child: FlatButton(
+                              onPressed: () {
+                                DatePicker.showDateTimePicker(context,
+                                    showTitleActions: true, onConfirm: (date) {
+                                  setState(() {
+                                    selectedDate = date;
+                                  });
+                                },
+                                    currentTime:
+                                        DateTime(2021, 1, 1, 12, 12, 12));
 
-                              //       _selectDate(context);
-                            },
+                                //       _selectDate(context);
+                              },
 
-                            child: Text(
-                              'Date & Time',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 19,
+                              child: Text(
+                                'Date & Time',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 17,
+                                ),
                               ),
+                              //  color: Colors.greenAccent,
                             ),
-                            //  color: Colors.greenAccent,
                           ),
                         ],
                       ),
