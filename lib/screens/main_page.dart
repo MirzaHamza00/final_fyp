@@ -19,7 +19,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
-    final deviceOrient = MediaQuery.of(context).orientation;
+    //  final deviceOrient = MediaQuery.of(context).orientation;
     return SafeArea(
       child: Container(
         decoration: BoxDecoration(

@@ -33,124 +33,126 @@ class _AppDrawerState extends State<AppDrawer> {
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
     return Drawer(
-      child: Column(
-        children: <Widget>[
-          Container(
-            height: deviceSize.height * 0.27,
-            decoration: BoxDecoration(
-              color: AppDrawer.backHexColor,
-              borderRadius: BorderRadius.vertical(
-                  bottom: Radius.elliptical(
-                      MediaQuery.of(context).size.width, 120.0)),
-            ),
-            child: Row(
-              children: [
-                Container(
-                  margin: EdgeInsets.fromLTRB(10, 0, 18, 0),
-                  width: deviceSize.width * 0.21,
-                  height: deviceSize.height * 0.13,
-                  child: ClipOval(
-                    child: _storedImage != null
-                        ? imagePicker(deviceSize)
-                        : GestureDetector(
-                            onTap: _takePicture,
-                            child: Container(
-                              width: deviceSize.width * 0.24,
-                              height: deviceSize.height * 0.15,
-                              child: Image.asset(
-                                'assets/images/takePic.png',
-                                fit: BoxFit.cover,
-                                width: double.infinity,
+      child: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            Container(
+              height: deviceSize.height * 0.27,
+              decoration: BoxDecoration(
+                color: AppDrawer.backHexColor,
+                borderRadius: BorderRadius.vertical(
+                    bottom: Radius.elliptical(
+                        MediaQuery.of(context).size.width, 120.0)),
+              ),
+              child: Row(
+                children: [
+                  Container(
+                    margin: EdgeInsets.fromLTRB(10, 0, 18, 0),
+                    width: deviceSize.width * 0.21,
+                    height: deviceSize.height * 0.13,
+                    child: ClipOval(
+                      child: _storedImage != null
+                          ? imagePicker(deviceSize)
+                          : GestureDetector(
+                              onTap: _takePicture,
+                              child: Container(
+                                width: deviceSize.width * 0.24,
+                                height: deviceSize.height * 0.15,
+                                child: Image.asset(
+                                  'assets/images/takePic.png',
+                                  fit: BoxFit.cover,
+                                  width: double.infinity,
+                                ),
                               ),
                             ),
-                          ),
-                  ),
-                ),
-                SizedBox(
-                  width: deviceSize.width * 0.01,
-                ),
-                FittedBox(
-                  fit: BoxFit.contain,
-                  child: Text(
-                    'UserName',
-                    style: TextStyle(
-                      fontSize: 23,
-                      color: Colors.white,
                     ),
                   ),
+                  SizedBox(
+                    width: deviceSize.width * 0.01,
+                  ),
+                  FittedBox(
+                    fit: BoxFit.contain,
+                    child: Text(
+                      'UserName',
+                      style: TextStyle(
+                        fontSize: 23,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Divider(),
+            ListTile(
+              leading: Icon(
+                Icons.map,
+                color: Colors.deepOrange,
+              ),
+              title: Text(
+                'NearBy Places',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,
                 ),
-              ],
-            ),
-          ),
-          Divider(),
-          ListTile(
-            leading: Icon(
-              Icons.map,
-              color: Colors.deepOrange,
-            ),
-            title: Text(
-              'NearBy Places',
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w500,
               ),
+              onTap: () {
+                Navigator.of(context).pushReplacementNamed('nearPlace');
+              },
             ),
-            onTap: () {
-              Navigator.of(context).pushReplacementNamed('nearPlace');
-            },
-          ),
-          Divider(),
-          ListTile(
-            leading: Icon(
-              Icons.cloud,
-              color: Colors.deepOrange,
-            ),
-            title: Text(
-              'Weather Update',
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w500,
+            Divider(),
+            ListTile(
+              leading: Icon(
+                Icons.cloud,
+                color: Colors.deepOrange,
               ),
-            ),
-            onTap: () {
-              Navigator.of(context).pushReplacementNamed('whetherUpdate');
-            },
-          ),
-          Divider(),
-          ListTile(
-            leading: Icon(
-              Icons.language,
-              color: Colors.deepOrange,
-            ),
-            title: Text(
-              'Language',
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w500,
+              title: Text(
+                'Weather Update',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
+              onTap: () {
+                Navigator.of(context).pushReplacementNamed('whetherUpdate');
+              },
             ),
-            onTap: () {
-              Navigator.of(context).pushReplacementNamed('/');
-            },
-          ),
-          Divider(),
-          ListTile(
-            leading: Icon(
-              Icons.keyboard_return,
-              color: Colors.deepOrange,
-            ),
-            title: Text(
-              'Log Out',
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w500,
+            Divider(),
+            ListTile(
+              leading: Icon(
+                Icons.language,
+                color: Colors.deepOrange,
               ),
+              title: Text(
+                'Language',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              onTap: () {
+                Navigator.of(context).pushReplacementNamed('/');
+              },
             ),
-            onTap: () {
-              Navigator.of(context).pushReplacementNamed('/');
-            },
-          ),
-        ],
+            Divider(),
+            ListTile(
+              leading: Icon(
+                Icons.keyboard_return,
+                color: Colors.deepOrange,
+              ),
+              title: Text(
+                'Log Out',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              onTap: () {
+                Navigator.of(context).pushReplacementNamed('/');
+              },
+            ),
+          ],
+        ),
       ),
     );
   }

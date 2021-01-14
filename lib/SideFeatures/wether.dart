@@ -130,44 +130,46 @@ class _WhetherUpdateState extends State<WhetherUpdate> {
           height: deviceSize.height / 2.5,
           width: deviceSize.width,
           color: backHexColor,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Padding(
-                padding: EdgeInsets.only(
-                  bottom: 10.0,
-                  top: 10.0,
+          child: Expanded(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Padding(
+                  padding: EdgeInsets.only(
+                    bottom: 10.0,
+                    top: 10.0,
+                  ),
+                  child: Text(
+                    'Current In ' + city.toString() + ' $country',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
                 ),
-                child: Text(
-                  'Current In ' + city.toString() + ' $country',
+                Text(
+                  temp != null ? temp.toString() + "\u00b0" : 'Loading',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 16,
+                    fontSize: 80,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
-              ),
-              Text(
-                temp != null ? temp.toString() + "\u00b0" : 'Loading',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 80,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
-              Padding(
-                padding: EdgeInsets.only(top: 10.0),
-                child: Text(
-                  currently != null ? currently.toString() : 'Loading',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
+                Padding(
+                  padding: EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    currently != null ? currently.toString() : 'Loading',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
         Expanded(

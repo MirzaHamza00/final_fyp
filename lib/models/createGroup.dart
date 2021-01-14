@@ -51,12 +51,8 @@ class _CreateGroupState extends State<CreateGroup> {
 
       setState(() {
         cor = coordinates;
-        print("Latitude: ${cor.latitude}");
-        print("Longitude: ${cor.longitude}");
       });
-    } catch (e) {
-      print(e);
-    }
+    } catch (e) {}
   }
 
   _selectDate(BuildContext context) async {
@@ -94,182 +90,167 @@ class _CreateGroupState extends State<CreateGroup> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          FaIcon(
-                            FontAwesomeIcons.mapMarkerAlt,
-                            color: Colors.grey[600],
-                            size: 29,
+                      Container(
+                        height: deviceOrient != Orientation.landscape
+                            ? deviceSize.height * 0.099
+                            : 90,
+                        // width: double.infinity,
+                        child: TextFormField(
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
                           ),
-                          SizedBox(
-                            width: 9,
-                          ),
-                          Expanded(
-                            child: Container(
-                              height: deviceOrient != Orientation.landscape
-                                  ? deviceSize.height * 0.099
-                                  : 90,
-                              // width: double.infinity,
-                              child: TextFormField(
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 20,
-                                ),
-                                cursorColor: Colors.pink,
-                                textCapitalization: TextCapitalization.words,
-                                decoration: InputDecoration(
-                                  contentPadding: new EdgeInsets.all(10),
-                                  fillColor: Colors.black38,
-                                  filled: true,
-                                  counterText: ' ',
-                                  errorStyle: TextStyle(
-                                    color: Colors.red,
-                                    fontSize: 17,
-                                  ),
-                                  //focusColor: backHexColor,
-                                  //  labelText: 'Email',
-                                  labelText: 'Enter Source',
-                                  labelStyle: TextStyle(
-                                    color: Colors.white70,
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.w300,
-                                  ),
-                                  focusedBorder: OutlineInputBorder(
-                                    borderSide: BorderSide(
-                                      color: backHexColor,
-                                      width: 0.5,
-                                    ),
-                                    borderRadius: const BorderRadius.all(
-                                      const Radius.circular(10.0),
-                                    ),
-                                  ),
-                                  errorBorder: const OutlineInputBorder(
-                                    borderSide: const BorderSide(
-                                      color: Colors.red,
-                                      width: 0.5,
-                                    ),
-                                    borderRadius: const BorderRadius.all(
-                                      const Radius.circular(10.0),
-                                    ),
-                                  ),
-                                  enabledBorder: OutlineInputBorder(
-                                    borderSide: BorderSide(
-                                      color: backHexColor,
-                                      width: 0.5,
-                                    ),
-                                    borderRadius: const BorderRadius.all(
-                                      const Radius.circular(10.0),
-                                    ),
-                                  ),
-                                ),
-                                // focusNode: _mailFocus,
-                                keyboardType: TextInputType.text,
-                                validator: (value) => value.isEmpty
-                                    ? 'Enter Source'
-                                    : (nameRegExp.hasMatch(value)
-                                        ? null
-                                        : 'InValid Source'),
+                          cursorColor: Colors.pink,
+                          textCapitalization: TextCapitalization.words,
+                          decoration: InputDecoration(
+                            prefixIcon: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: FaIcon(
+                                FontAwesomeIcons.mapMarkerAlt,
+                                color: Colors.grey[600],
+                                size: 29,
+                              ),
+                            ),
+                            contentPadding: new EdgeInsets.all(10),
+                            fillColor: Colors.black38,
+                            filled: true,
+                            counterText: ' ',
+                            errorStyle: TextStyle(
+                              color: Colors.red,
+                              fontSize: 17,
+                            ),
+                            //focusColor: backHexColor,
+                            //  labelText: 'Email',
+                            labelText: 'Enter Source',
+                            labelStyle: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 20,
+                              fontWeight: FontWeight.w300,
+                            ),
+                            focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: backHexColor,
+                                width: 0.5,
+                              ),
+                              borderRadius: const BorderRadius.all(
+                                const Radius.circular(10.0),
+                              ),
+                            ),
+                            errorBorder: const OutlineInputBorder(
+                              borderSide: const BorderSide(
+                                color: Colors.red,
+                                width: 0.5,
+                              ),
+                              borderRadius: const BorderRadius.all(
+                                const Radius.circular(10.0),
+                              ),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: backHexColor,
+                                width: 0.5,
+                              ),
+                              borderRadius: const BorderRadius.all(
+                                const Radius.circular(10.0),
                               ),
                             ),
                           ),
-                        ],
+                          // focusNode: _mailFocus,
+                          keyboardType: TextInputType.text,
+                          validator: (value) => value.isEmpty
+                              ? 'Enter Source'
+                              : (nameRegExp.hasMatch(value)
+                                  ? null
+                                  : 'InValid Source'),
+                        ),
                       ),
                       // SizedBox(
                       //   height: deviceSize.height * 0.006,
                       // ),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          FaIcon(
-                            FontAwesomeIcons.mapPin,
-                            size: 29,
-                            color: Colors.grey[600],
-                          ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Expanded(
-                            child: Container(
-                              height: deviceOrient != Orientation.landscape
-                                  ? deviceSize.height * 0.099
-                                  : 90,
-                              child: TextFormField(
-                                controller: _controller,
-                                onEditingComplete: () {
-                                  setState(() {
-                                    city = _controller.text;
-                                  });
-                                  _getLocation(city);
-                                  FocusScope.of(context)
-                                      .requestFocus(_blankFocus);
-                                },
 
-                                // onFieldSubmitted: _launchMapsUrl(_controller.text),
+                      Container(
+                        height: deviceOrient != Orientation.landscape
+                            ? deviceSize.height * 0.099
+                            : 90,
+                        child: TextFormField(
+                          controller: _controller,
+                          onEditingComplete: () {
+                            setState(() {
+                              city = _controller.text;
+                            });
+                            _getLocation(city);
+                            FocusScope.of(context).requestFocus(_blankFocus);
+                          },
 
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 20,
-                                ),
-                                cursorColor: Colors.pink,
-                                textCapitalization: TextCapitalization.words,
-                                decoration: InputDecoration(
-                                  contentPadding: new EdgeInsets.all(10),
-                                  fillColor: Colors.black38,
-                                  filled: true,
-                                  counterText: ' ',
-                                  errorStyle: TextStyle(
-                                    color: Colors.red,
-                                    fontSize: 17,
-                                  ),
-                                  //focusColor: backHexColor,
-                                  //  labelText: 'Email',
-                                  labelText: 'Enter Destination',
-                                  labelStyle: TextStyle(
-                                    color: Colors.white70,
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.w300,
-                                  ),
-                                  focusedBorder: OutlineInputBorder(
-                                    borderSide: BorderSide(
-                                      color: backHexColor,
-                                      width: 0.5,
-                                    ),
-                                    borderRadius: const BorderRadius.all(
-                                      const Radius.circular(10.0),
-                                    ),
-                                  ),
-                                  errorBorder: const OutlineInputBorder(
-                                    borderSide: const BorderSide(
-                                      color: Colors.red,
-                                      width: 0.5,
-                                    ),
-                                    borderRadius: const BorderRadius.all(
-                                      const Radius.circular(10.0),
-                                    ),
-                                  ),
-                                  enabledBorder: OutlineInputBorder(
-                                    borderSide: BorderSide(
-                                      color: backHexColor,
-                                      width: 0.5,
-                                    ),
-                                    borderRadius: const BorderRadius.all(
-                                      const Radius.circular(10.0),
-                                    ),
-                                  ),
-                                ),
-                                // focusNode: _mailFocus,
-                                keyboardType: TextInputType.text,
-                                validator: (value) => value.isEmpty
-                                    ? 'Enter Destination'
-                                    : (nameRegExp.hasMatch(value)
-                                        ? null
-                                        : 'InValid Destination'),
+                          // onFieldSubmitted: _launchMapsUrl(_controller.text),
+
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                          ),
+                          cursorColor: Colors.pink,
+                          textCapitalization: TextCapitalization.words,
+                          decoration: InputDecoration(
+                            prefixIcon: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: FaIcon(
+                                FontAwesomeIcons.mapPin,
+                                size: 29,
+                                color: Colors.grey[600],
+                              ),
+                            ),
+                            contentPadding: new EdgeInsets.all(10),
+                            fillColor: Colors.black38,
+                            filled: true,
+                            counterText: ' ',
+                            errorStyle: TextStyle(
+                              color: Colors.red,
+                              fontSize: 17,
+                            ),
+                            //focusColor: backHexColor,
+                            //  labelText: 'Email',
+                            labelText: 'Enter Destination',
+                            labelStyle: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 20,
+                              fontWeight: FontWeight.w300,
+                            ),
+                            focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: backHexColor,
+                                width: 0.5,
+                              ),
+                              borderRadius: const BorderRadius.all(
+                                const Radius.circular(10.0),
+                              ),
+                            ),
+                            errorBorder: const OutlineInputBorder(
+                              borderSide: const BorderSide(
+                                color: Colors.red,
+                                width: 0.5,
+                              ),
+                              borderRadius: const BorderRadius.all(
+                                const Radius.circular(10.0),
+                              ),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: backHexColor,
+                                width: 0.5,
+                              ),
+                              borderRadius: const BorderRadius.all(
+                                const Radius.circular(10.0),
                               ),
                             ),
                           ),
-                        ],
+                          // focusNode: _mailFocus,
+                          keyboardType: TextInputType.text,
+                          validator: (value) => value.isEmpty
+                              ? 'Enter Destination'
+                              : (nameRegExp.hasMatch(value)
+                                  ? null
+                                  : 'InValid Destination'),
+                        ),
                       ),
 
                       Row(
@@ -312,6 +293,10 @@ class _CreateGroupState extends State<CreateGroup> {
                                   //  labelText: 'Email',
                                   hintText: 'e.g 50',
                                   hintStyle: TextStyle(
+                                    fontSize:
+                                        deviceOrient != Orientation.landscape
+                                            ? 19
+                                            : deviceSize.width * 0.04,
                                     color: Colors.grey,
                                   ),
                                   focusedBorder: OutlineInputBorder(
