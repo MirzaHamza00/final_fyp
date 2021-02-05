@@ -528,14 +528,20 @@ class _CreateTravelTourState extends State<CreateTravelTour> {
                         //    mainAxisSize: MainAxisSize.min,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
-                          Text(
-                            DateFormat.yMd().format(selectedDate) +
-                                ' | ' +
-                                DateFormat.Hm().format(selectedDate),
-                            style: TextStyle(
-                              fontSize: 19,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.grey,
+                          Container(
+                            padding: EdgeInsets.all(4),
+                            decoration: BoxDecoration(
+                              border: Border.all(color: Colors.grey, width: 2),
+                            ),
+                            child: Text(
+                              DateFormat.yMd().format(selectedDate) +
+                                  ' | ' +
+                                  DateFormat.Hm().format(selectedDate),
+                              style: TextStyle(
+                                fontSize: 19,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.grey,
+                              ),
                             ),
                           ),
                           Expanded(

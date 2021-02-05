@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">135219042913-rseg3gslnvam127d9rp80jd4et1dob7k.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">135219042913</string>
+    <string name="google_api_key" translatable="false">AIzaSyCjLbN1IZ95NbGo4eiw-cR-7nf6r6Q96YQ</string>
+    <string name="google_app_id" translatable="false">1:135219042913:android:26882e269fde3937e5a820</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCjLbN1IZ95NbGo4eiw-cR-7nf6r6Q96YQ</string>
+    <string name="google_storage_bucket" translatable="false">touron-49530.appspot.com</string>
+    <string name="project_id" translatable="false">touron-49530</string>
+</resources>

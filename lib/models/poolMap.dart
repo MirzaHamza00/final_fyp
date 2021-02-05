@@ -65,13 +65,17 @@ class _PoolMapState extends State<PoolMap> {
           // mapType: MapType.hybrid,
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            Navigator.of(context).pop();
-            Navigator.of(context).pushReplacementNamed('poolingTour');
-          },
-          child: FaIcon(
-            FontAwesomeIcons.arrowRight,
+        floatingActionButton: Padding(
+          padding: const EdgeInsets.all(18.0),
+          child: FloatingActionButton(
+            backgroundColor: Color(0xff1D2553),
+            onPressed: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).pushReplacementNamed('poolingTour');
+            },
+            child: FaIcon(
+              FontAwesomeIcons.arrowRight,
+            ),
           ),
         ),
       ),

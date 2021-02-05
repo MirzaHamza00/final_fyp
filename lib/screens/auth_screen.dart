@@ -1,9 +1,16 @@
+import 'package:auto_size_text/auto_size_text.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:first_flutter/services/auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 bool check = true;
 bool lost = false;
 
 class AuthScreen extends StatelessWidget {
+  final GlobalKey<ScaffoldState> _scaffoldkey = new GlobalKey<ScaffoldState>();
+
   static const routeName = 'login';
   static const Color buttonHexColor = Color(0xff3345c5);
   static const Color backHexColor = Color(0xff1D2553);
@@ -28,6 +35,7 @@ class AuthScreen extends StatelessWidget {
           ),
         ),
         child: Scaffold(
+          key: _scaffoldkey,
           backgroundColor: Colors.transparent,
           resizeToAvoidBottomInset: true,
           resizeToAvoidBottomPadding: true,
@@ -90,7 +98,7 @@ class AuthScreen extends StatelessWidget {
                             height: deviceSize.height * 0.03,
                           ),
                           Text(
-                            'Sign In',
+                            'Log In',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 40,
@@ -131,6 +139,7 @@ class _AuthCardState extends State<AuthCard> {
       RegExp('^(([a-zA-Z]+)([a-zA-Z0-9_]*)(.|_))+(\@)([a-zA-Z]+)(\.com)');
   final FocusNode _mailFocus = FocusNode();
   final FocusNode _passFocus = FocusNode();
+  var err = true;
 
   final GlobalKey<FormState> _formKey = GlobalKey();
   Map<String, String> _authData = {
@@ -142,6 +151,7 @@ class _AuthCardState extends State<AuthCard> {
   static const Color fieldHexColor = Color(0xff4a5165);
   // final _passwordController = TextEditingController();
 
+  var errorMessage;
   bool _passwordVisible = true;
 
   Future<void> _submit() async {
@@ -150,7 +160,24 @@ class _AuthCardState extends State<AuthCard> {
       return;
     }
     _formKey.currentState.save();
-    Navigator.of(context).pushReplacementNamed('mainpage');
+
+    try {
+      final uid = await AuthService().signInWithEmailAndPassword(
+          _authData['email'], _authData['password']);
+      print(uid.toString());
+
+      Navigator.of(context).pushReplacementNamed('mainpage');
+    } catch (e) {
+      setState(() {
+        errorMessage = e.message;
+      });
+      Scaffold.of(context).showSnackBar(
+        SnackBar(
+          content: Text(errorMessage.toString()),
+          duration: Duration(seconds: 3),
+        ),
+      );
+    }
   }
 
   @override
@@ -161,6 +188,44 @@ class _AuthCardState extends State<AuthCard> {
     super.dispose();
   }
 
+  Widget showAlert() {
+    if (errorMessage != null) {
+      return Container(
+        color: Colors.amberAccent,
+        width: double.infinity,
+        padding: EdgeInsets.all(8.0),
+        child: Row(
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.only(right: 8.0),
+              child: Icon(Icons.error_outline),
+            ),
+            Expanded(
+              child: AutoSizeText(
+                errorMessage,
+                maxLines: 3,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 8.0),
+              child: IconButton(
+                icon: Icon(Icons.close),
+                onPressed: () {
+                  setState(() {
+                    errorMessage = null;
+                  });
+                },
+              ),
+            )
+          ],
+        ),
+      );
+    }
+    return SizedBox(
+      height: 0,
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
@@ -168,6 +233,8 @@ class _AuthCardState extends State<AuthCard> {
     //final double top = deviceSize.height * -0.04;
     return Column(
       children: [
+        // SizedBox(height: deviceSize.height * 0.025),
+        // showAlert(),
         Container(
           padding: EdgeInsets.fromLTRB(0, deviceSize.height * 0.08, 0, 0),
           //  color: backHexColor,
@@ -178,14 +245,13 @@ class _AuthCardState extends State<AuthCard> {
               //  mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                if (lost != true)
-                  Text(
-                    'Email',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 22,
-                    ),
+                Text(
+                  'Email',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 22,
                   ),
+                ),
 
                 SizedBox(
                   height: deviceSize.height * 0.01,
@@ -199,7 +265,10 @@ class _AuthCardState extends State<AuthCard> {
                       check = false;
                     },
                     onEditingComplete: () {
-                      check = true;
+                      setState(() {
+                        err = false;
+                        check = true;
+                      });
                     },
                     style: TextStyle(
                       color: Colors.white,
@@ -210,19 +279,10 @@ class _AuthCardState extends State<AuthCard> {
                       contentPadding: new EdgeInsets.all(10),
                       fillColor: fieldHexColor,
                       filled: true,
-                      // prefixIconConstraints:
-                      //     BoxConstraints(minWidth: 19, maxHeight: 20),
-                      // prefixIcon: Padding(
-                      //   padding: EdgeInsets.only(right: 8),
-                      //   child: Icon(
-                      //     Icons.person_outline,
-                      //     color: backHexColor,
-                      //   ),
-                      // ),
-                      counterText: ' ',
+                      // counterText: ' ',
                       errorStyle: TextStyle(
                         color: Colors.red,
-                        fontSize: 17,
+                        fontSize: 14,
                       ),
                       //focusColor: backHexColor,
                       //  labelText: 'Email',
@@ -232,7 +292,6 @@ class _AuthCardState extends State<AuthCard> {
                         fontSize: 20,
                         fontWeight: FontWeight.w300,
                       ),
-
                       focusedBorder: const OutlineInputBorder(
                         borderSide: const BorderSide(
                           color: backHexColor,
@@ -263,7 +322,7 @@ class _AuthCardState extends State<AuthCard> {
                     ),
                     focusNode: _mailFocus,
                     keyboardType: TextInputType.emailAddress,
-                    validator: (value) => value.isEmpty
+                    validator: (value) => value.isEmpty ?? err != true
                         ? 'Enter Email'
                         : (emailRegExp.hasMatch(value)
                             ? null
@@ -271,6 +330,9 @@ class _AuthCardState extends State<AuthCard> {
                     onFieldSubmitted: (term) {
                       //    FocusScope.of(context).requestFocus(_passFocus);
                       _fieldFocusChange(context, _mailFocus, _passFocus);
+                    },
+                    onSaved: (v) {
+                      _authData['email'] = v.trim();
                     },
                   ),
                 ),
@@ -324,19 +386,10 @@ class _AuthCardState extends State<AuthCard> {
                       contentPadding: new EdgeInsets.all(10),
                       fillColor: fieldHexColor,
                       filled: true,
-                      // prefixIconConstraints:
-                      //     BoxConstraints(minWidth: 19, maxHeight: 20),
-                      // // prefixIcon: Padding(
-                      //   padding: EdgeInsets.only(right: 8),
-                      //   child: Icon(
-                      //     Icons.lock_outline,
-                      //     color: backHexColor,
-                      //   ),
-                      // ),
                       counterText: ' ',
                       errorStyle: TextStyle(
                         color: Colors.red,
-                        fontSize: 17,
+                        fontSize: 14,
                       ),
                       //labelText: 'Password',
                       hintText: 'Type Here...',
@@ -388,7 +441,7 @@ class _AuthCardState extends State<AuthCard> {
                       return null;
                     },
                     onSaved: (value) {
-                      _authData['password'] = value;
+                      _authData['password'] = value.trim();
                     },
                   ),
                 ),

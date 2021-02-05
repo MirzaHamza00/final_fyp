@@ -1,18 +1,18 @@
 [
     {
         "merged": "/Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/bafbdbf353af8924becc6f786b1e0bbb/core-1.1.0/res/drawable/notification_icon_background.xml"
+        "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/167ba56df2418353eacaf24cb565a8b5/core-1.1.0/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/bafbdbf353af8924becc6f786b1e0bbb/core-1.1.0/res/drawable/notification_bg.xml"
+        "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/167ba56df2418353eacaf24cb565a8b5/core-1.1.0/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/bafbdbf353af8924becc6f786b1e0bbb/core-1.1.0/res/drawable/notification_bg_low.xml"
+        "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/167ba56df2418353eacaf24cb565a8b5/core-1.1.0/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/bafbdbf353af8924becc6f786b1e0bbb/core-1.1.0/res/drawable/notification_tile_bg.xml"
+        "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/167ba56df2418353eacaf24cb565a8b5/core-1.1.0/res/drawable/notification_tile_bg.xml"
     }
 ]

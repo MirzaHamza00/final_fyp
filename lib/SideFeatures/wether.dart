@@ -30,7 +30,7 @@ class _WhetherUpdateState extends State<WhetherUpdate> {
   var city;
   Future getWeater() async {
     http.Response response = await http.get(
-        'http://api.openweathermap.org/data/2.5/weather?q=$city,+92∫&units=metric&appid=46996752f9586a91a0481b6f83e87bbb');
+        'http://api.openweathermap.org/data/2.5/weather?q=$city&units=metric&appid=c5b3f2b5434150f988702a604713f561');
 
     var results = jsonDecode(response.body);
     setState(() {
@@ -66,6 +66,7 @@ class _WhetherUpdateState extends State<WhetherUpdate> {
           FocusScope.of(context).requestFocus(_blankFocus);
         },
         child: Scaffold(
+          resizeToAvoidBottomInset: false,
           appBar: buildAppBar(context),
           body: city == null
               ? Center(
@@ -77,7 +78,6 @@ class _WhetherUpdateState extends State<WhetherUpdate> {
                         Container(
                           width: 300,
                           height: 300,
-                          //       margin: EdgeInsets.fromLTRB(0, 60, 0, 0),
                           child: Image.asset('assets/images/weather.png'),
                         ),
                         Text(
@@ -126,11 +126,12 @@ class _WhetherUpdateState extends State<WhetherUpdate> {
   Column buildWeather(Size deviceSize) {
     return Column(
       children: [
-        Container(
-          height: deviceSize.height / 2.5,
-          width: deviceSize.width,
-          color: backHexColor,
-          child: Expanded(
+        Expanded(
+          flex: 1,
+          child: Container(
+            height: deviceSize.height / 2.5,
+            width: deviceSize.width,
+            color: backHexColor,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -173,6 +174,7 @@ class _WhetherUpdateState extends State<WhetherUpdate> {
           ),
         ),
         Expanded(
+          flex: 2,
           child: Padding(
             padding: EdgeInsets.all(20),
             child: ListView(
@@ -277,12 +279,15 @@ class _WhetherUpdateState extends State<WhetherUpdate> {
                   ),
                   decoration: new InputDecoration(
                     enabledBorder: const UnderlineInputBorder(
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(10),
+                      ),
                       borderSide:
                           const BorderSide(color: Colors.white, width: 1.0),
                     ),
                     focusedBorder: const UnderlineInputBorder(
                       borderSide:
-                          const BorderSide(color: Colors.pink, width: 1.0),
+                          const BorderSide(color: Colors.pink, width: 2.0),
                     ),
                     //  prefixIcon: new Icon(Icons.search, color: Colors.white),
                     hintText: "Search...",

@@ -49,6 +49,11 @@ dependencies:
   permission:
   draggable_scrollbar: ^0.0.4
   faker: ^1.0.1
+  firebase_auth: ^0.20.0+1
+  firebase_core: ^0.7.0
+  cloud_firestore: ^0.16.0
+
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
@@ -86,17 +91,17 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: grand
+    - family: famous
       fonts:
-        - asset: fonts/Grandstander-Italic-VariableFont_wght.ttf
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-    - family: salbo
+        - asset: fonts/yes.ttf
+    - family: appBar
       fonts:
-        - asset: fonts/Slabo27px-Regular.ttf
+        - asset: fonts/yes2.ttf
+
+  # fonts:
+  #   _ family: famous
+  #       fonts:
+  #         - assets: fonts/yes.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

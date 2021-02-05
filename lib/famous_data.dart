@@ -23,6 +23,12 @@ const Famous_module = const [
       'Maira Sharif',
       'Gurdwara Panja Sahab',
     ],
+    pics: [
+      'assets/images/Attock_01.jpg',
+      'assets/images/Attock_02.jpg',
+      'assets/images/Attock_03.jpg',
+      'assets/images/Attock_04.jpg',
+    ],
   ),
   Famous(
     id: 'f2',
@@ -37,6 +43,12 @@ const Famous_module = const [
       'Dabar Hazrat Noor Muhammad Maharvi',
       'Dabar Hazrat Syed Fazal Hussain',
       'Dabar Hazrat Taj Ud Din Sarwar',
+    ],
+    pics: [
+      'assets/images/Bahawalnagr_01.jpg',
+      'assets/images/Bahawalnagar_02.jpg',
+      'assets/images/Bahawalnagar_03.jpg',
+      'assets/images/Bahawalnagar_04.jpg',
     ],
   ),
   Famous(
@@ -80,6 +92,12 @@ const Famous_module = const [
       'Shrine of Prophet (PBUH) Companions Dewar',
       'Tomb of Bibi Jawandi, Baha’al Halim and Ustaad and Tomb and Mosque of Jalal ud din Bukhari',
     ],
+    pics: [
+      'assets/images/Bahawalpur_01.jpg',
+      'assets/images/Bahawalpur_02.jpg',
+      'assets/images/Bahawalpur_03.jpg',
+      'assets/images/Bahawalpur_02.jpg',
+    ],
   ),
   Famous(
     id: 'f4',
@@ -92,6 +110,12 @@ const Famous_module = const [
     cultural: ['Not Available'],
     religous: [
       'Shri Maha Veer ji Temple',
+    ],
+    pics: [
+      'assets/images/Bhakkar_01.jpg',
+      'assets/images/Bhakkar_02.jpg',
+      'assets/images/Bhakkar_03.jpg',
+      'assets/images/Bhakkar_02.jpg',
     ],
   ),
   Famous(
@@ -121,6 +145,12 @@ const Famous_module = const [
       'Saidan Shah Shrine',
       'Shrine of Saint Abdul Qadir Gilani Grandson',
     ],
+    pics: [
+      'assets/images/Chakwal_01.jpg',
+      'assets/images/Chakwal_02.jpg',
+      'assets/images/Chakwal_03.jpg',
+      'assets/images/Chakwal_04.jpg',
+    ],
   ),
   Famous(
     id: 'f5after',
@@ -136,6 +166,12 @@ const Famous_module = const [
       'Shahi Mosque',
       'Dabar Hazrat Bu Ali Qalandir',
       'Dabar Pir Mohammad Siddique Lalian',
+    ],
+    pics: [
+      'assets/images/Chiniot.jpg',
+      'assets/images/Chiniot_02.jpg',
+      'assets/images/Chiniot_03.jpg',
+      'assets/images/Chiniot_02.jpg',
     ],
   ),
   Famous(
@@ -162,11 +198,17 @@ const Famous_module = const [
       'Zinda pir',
       'Tomb Hazrat Khawaja Suleman',
     ],
+    pics: [
+      'assets/images/DGkhan_01.jpg',
+      'assets/images/DGkhan_02.jpg',
+      'assets/images/DGkhan_03.jpg',
+      'assets/images/DGkhan_02.jpg',
+    ],
   ),
   Famous(
     id: 'f7',
     title: 'Faisalabad',
-    color: Colors.pinkAccent,
+    color: Colors.limeAccent,
     image: 'assets/images/fasilabad.png',
     historical: [
       '	Faisalabad Clock Tower',
@@ -184,11 +226,17 @@ const Famous_module = const [
     religous: [
       'Temple Chak Jhumra',
     ],
+    pics: [
+      'assets/images/Faisalabad_01.jpg',
+      'assets/images/Faisalabad_02.jpg',
+      'assets/images/Faisalabad_03.jpg',
+      'assets/images/Faisalabad_04.jpg',
+    ],
   ),
   Famous(
     id: 'f8',
     title: 'Gujranwala',
-    color: Colors.yellow,
+    color: Colors.blueGrey,
     image: 'assets/images/gujar.png',
     historical: [
       'Chichraan Wala Mandir',
@@ -211,6 +259,12 @@ const Famous_module = const [
       'Molana Zafar Ali Khan Shrine',
       'Saint Paul’s Presbyterian Church',
     ],
+    pics: [
+      'assets/images/Gujranwala_01.jpg',
+      'assets/images/Gujranwala_02.jpg',
+      'assets/images/Gujranwala_03.jpg',
+      'assets/images/Gujranwala_02.jpg',
+    ],
   ),
   Famous(
     id: 'f9',
@@ -225,6 +279,12 @@ const Famous_module = const [
       'Mohri Sharif Darbar',
       'Shah Daula Pir Shrine',
     ],
+    pics: [
+      'assets/images/Gujrat_01.jpg',
+      'assets/images/Gujrat_02.jpg',
+      'assets/images/Gujrat_03.jpg',
+      'assets/images/Gujrat_02.jpg',
+    ],
   ),
   Famous(
     id: 'f10',
@@ -236,6 +296,12 @@ const Famous_module = const [
     religous: [
       'Mian Khair Mohammad Shrine',
       'Presbyterian Church Hafizabad',
+    ],
+    pics: [
+      'assets/images/Hafizabad_01.jpg',
+      'assets/images/Hafizabad_02.jpg',
+      'assets/images/Hafizabad_03.jpg',
+      'assets/images/Hafizabad_02.jpg',
     ],
   ),
   Famous(
@@ -257,6 +323,12 @@ const Famous_module = const [
       'Maai Baap Darbar',
       'Maai Challan Wali Sarkar',
       'Shah Jewna Darbar',
+    ],
+    pics: [
+      'assets/images/Jhang_01.webp',
+      'assets/images/Jhang_02.jpg',
+      'assets/images/Jhang_03.jpg',
+      'assets/images/Jhang_02.jpg',
     ],
   ),
   Famous(
@@ -286,6 +358,12 @@ const Famous_module = const [
       'Shrine Ghulam Haider Shah',
       'St. John’s Church',
     ],
+    pics: [
+      'assets/images/Jhelum_01.jpg',
+      'assets/images/Jhelum_02.jpg',
+      'assets/images/Jhelum_03.jpg',
+      'assets/images/Jhelum_02.jpg',
+    ],
   ),
   Famous(
     id: 'f13',
@@ -302,6 +380,12 @@ const Famous_module = const [
     religous: [
       'Baba Buleh Shah Shrine',
       'Baba Shah Kamal Chisti Shrine',
+    ],
+    pics: [
+      'assets/images/Kasur_01.jpg',
+      'assets/images/Kasur_02.jpg',
+      'assets/images/Kasur_03.jpg',
+      'assets/images/Kasur_02.jpg',
     ],
   ),
   Famous(
@@ -325,6 +409,12 @@ const Famous_module = const [
       'Baba Mian Channu Shrine',
       'Kabir Bukhri Shrine',
       'Nasir Hussain Shah Shrine',
+    ],
+    pics: [
+      'assets/images/Khanewal_01.jpg',
+      'assets/images/Khanewal_02.jpg',
+      'assets/images/Khanewal_03.jpg',
+      'assets/images/Khanewal_02.jpg',
     ],
   ),
   Famous(
@@ -353,6 +443,12 @@ const Famous_module = const [
       'Sakhi Sayed Al Maroof Shrine',
       'Sayedan Shah Bukhari Shrine',
     ],
+    pics: [
+      'assets/images/Khushab_01.jpg',
+      'assets/images/Khushab_02.jpg',
+      'assets/images/Khushab_03.jpg',
+      'assets/images/Khushab_02.jpg',
+    ],
   ),
   Famous(
     id: 'f16',
@@ -370,6 +466,12 @@ const Famous_module = const [
       'Mandir Shrine Cum Temple',
       'Rajan Shah Shrine',
     ],
+    pics: [
+      'assets/images/Layyah_01.jpg',
+      'assets/images/Layyah_02.jpg',
+      'assets/images/Layyah_03.jpg',
+      'assets/images/Layyah_04.jpg',
+    ],
   ),
   Famous(
     id: 'f17',
@@ -380,6 +482,12 @@ const Famous_module = const [
     cultural: ['Not Available'],
     religous: [
       'Sultan Ayub Qatal Shrine',
+    ],
+    pics: [
+      'assets/images/Lodhra_01.jpg',
+      'assets/images/Lodhra_02.jpg',
+      'assets/images/Lodhra_03.jpg',
+      'assets/images/Lodhra_02.jpg',
     ],
   ),
   Famous(
@@ -450,7 +558,7 @@ const Famous_module = const [
       'National Museum of Science and Technology',
       'Punjab Public Library',
       'Quaid-e-Azam Library',
-      '	TDCP Sightseeing Lahore Bus Service',
+      'TDCP Sightseeing Lahore Bus Service',
     ],
     religous: [
       'Akbar Sarai & Mosque',
@@ -471,6 +579,12 @@ const Famous_module = const [
       'Wazir Khan Hammam ',
       'Wazir Khan Mosque',
     ],
+    pics: [
+      'assets/images/Lahore_01.jpg',
+      'assets/images/Lahore_02.jpg',
+      'assets/images/Lahore_03.jpg',
+      'assets/images/Lahore_02.jpg',
+    ],
   ),
   Famous(
     id: 'f19',
@@ -486,6 +600,12 @@ const Famous_module = const [
       'Grudawara Bhai Bannu',
       'Grudawara Mandi Bahauddin',
     ],
+    pics: [
+      'assets/images/Mandibhaudin_01.jpg',
+      'assets/images/Mandibhaudin_02.jpg',
+      'assets/images/Mandibhaudin_03.jpg',
+      'assets/images/Mandibhaudin_02.jpg',
+    ],
   ),
   Famous(
     id: 'f20',
@@ -500,11 +620,17 @@ const Famous_module = const [
       'Ruins of Kafirkot',
       'Sultan Muhammad Zakria Shrine',
     ],
+    pics: [
+      'assets/images/Mianwali_01.jpg',
+      'assets/images/Mianwali_02.jpg',
+      'assets/images/Mianwali_03.jpg',
+      'assets/images/Mianwali_02.jpg',
+    ],
   ),
   Famous(
     id: 'f21',
     title: 'Multan',
-    color: Colors.white70,
+    color: Colors.blue,
     image: 'assets/images/multan.png',
     historical: [
       'Baha-ud-Din Zakria Shrine',
@@ -522,6 +648,12 @@ const Famous_module = const [
       'Shrine Shah Shamas Tabraiz',
       'Tomb of Shah Ali Akbar & his Mother',
     ],
+    pics: [
+      'assets/images/Multan_01.jpg',
+      'assets/images/Multan_02.jpg',
+      'assets/images/Multan_03.jpg',
+      'assets/images/Multan_02.jpg',
+    ],
   ),
   Famous(
     id: 'f22',
@@ -536,6 +668,12 @@ const Famous_module = const [
       'Darbar Naukar Shah Ghazi',
       'Masjid Sakina Tus Sughra',
       'Muhid Shah Sakar',
+    ],
+    pics: [
+      'assets/images/Muzafar_01.jpg',
+      'assets/images/Muzafar_02.jpg',
+      'assets/images/Muzafar_03.jpg',
+      'assets/images/Muzafar_04.jpg',
     ],
   ),
   Famous(
@@ -554,6 +692,12 @@ const Famous_module = const [
       'Presbyerian Church Sangla',
       'TDCP Nakana Motel',
     ],
+    pics: [
+      'assets/images/Nankanasahib_01.jpg',
+      'assets/images/Nankanasahib_02.jpg',
+      'assets/images/Nankanasahib_03.jpg',
+      'assets/images/Nankanasahib_02.jpg',
+    ],
   ),
   Famous(
     id: 'f24',
@@ -566,6 +710,12 @@ const Famous_module = const [
       'Epiphany Church',
       'Gurdwara Darbar Sahib Kartarpur',
       'Kutab Shah Wali Shrine',
+    ],
+    pics: [
+      'assets/images/Narowal_01.jpg',
+      'assets/images/Narowal_02.jpg',
+      'assets/images/Narowal_03.jpg',
+      'assets/images/Narowal_02.jpg',
     ],
   ),
   Famous(
@@ -583,6 +733,12 @@ const Famous_module = const [
       'Bhuman Shah',
       'Darbar Hazrat Daud Bandgi',
       'Darbar Karman Wali Khan',
+    ],
+    pics: [
+      'assets/images/Okara_01.jpg',
+      'assets/images/Okara_02.jpg',
+      'assets/images/Okara_03.jpg',
+      'assets/images/Okara_02.jpg',
     ],
   ),
   Famous(
@@ -602,6 +758,12 @@ const Famous_module = const [
       'Parnami Mandir, Malka Hans',
       'Sikhon ki Marri',
     ],
+    pics: [
+      'assets/images/Pakpattan_01.jpg',
+      'assets/images/Pakpattan_02.jpg',
+      'assets/images/Pakpattan_03.jpg',
+      'assets/images/Pakpattan_02.jpg',
+    ],
   ),
   Famous(
     id: 'f27',
@@ -615,6 +777,12 @@ const Famous_module = const [
     cultural: ['Not Available'],
     religous: [
       '	Bhong Masjid',
+    ],
+    pics: [
+      'assets/images/Rahimyarkhan_01.jpg',
+      'assets/images/Rahimyarkhan_02.jpg',
+      'assets/images/Rahimyarkhan_03.jpg',
+      'assets/images/Rahimyarkhan_02.jpg',
     ],
   ),
   Famous(
@@ -660,6 +828,12 @@ const Famous_module = const [
       'Taxila Sites & Monuments',
       'The holy Trinity Church',
     ],
+    pics: [
+      'assets/images/Rawal_01.jpg',
+      'assets/images/Rawal_02.jpg',
+      'assets/images/Rawal_03.jpg',
+      'assets/images/Rawal_04.jpg',
+    ],
   ),
   Famous(
     id: 'f29',
@@ -676,6 +850,12 @@ const Famous_module = const [
       'Sahib Shah Darbar',
       'Sakhi Rindan',
       'Sakhi Shah Jahan Burkari',
+    ],
+    pics: [
+      'assets/images/Rajanpur_01.jpg',
+      'assets/images/Rajanpur_02.jpg',
+      'assets/images/Rajanpur_03.jpg',
+      'assets/images/Rajanpur_04.jpg',
     ],
   ),
   Famous(
@@ -699,6 +879,12 @@ const Famous_module = const [
       'Dabar Hazrat Sher Mohammad',
       'Noori Sarkar Mazar',
     ],
+    pics: [
+      'assets/images/Sheikhupora_01.jpg',
+      'assets/images/Sheikhupora_02.jpg',
+      'assets/images/Sheikhupora_03.jpg',
+      'assets/images/Sheikhupora_02.jpg',
+    ],
   ),
   Famous(
     id: 'f31',
@@ -719,6 +905,12 @@ const Famous_module = const [
       'Kotli Bawa Faqeer Chand',
       'Up Church Chawinda',
     ],
+    pics: [
+      'assets/images/Sialkot_01.jpg',
+      'assets/images/Sialkot_02.jpg',
+      'assets/images/Sialkot_03.jpg',
+      'assets/images/Sialkot_02.jpg',
+    ],
   ),
   Famous(
     id: 'f32',
@@ -731,6 +923,12 @@ const Famous_module = const [
     cultural: ['Not Available'],
     religous: [
       'Jamia Masjid Faridia',
+    ],
+    pics: [
+      'assets/images/Sahiwal_01.jpg',
+      'assets/images/Sahiwal_02.jpg',
+      'assets/images/Sahiwal_03.jpg',
+      'assets/images/Sahiwal_02.jpg',
     ],
   ),
   Famous(
@@ -752,6 +950,12 @@ const Famous_module = const [
       'Jamia Masjid Bhera',
       'Sher Shah Suri Mosque',
     ],
+    pics: [
+      'assets/images/Sargodha_01.jpg',
+      'assets/images/Sargodha_02.jpg',
+      'assets/images/Sargodha_03.jpg',
+      'assets/images/Sargodha_02.jpg',
+    ],
   ),
   Famous(
     id: 'f34',
@@ -762,6 +966,12 @@ const Famous_module = const [
     cultural: ['Not Available'],
     religous: [
       'Gurdwara Singhs Bha Gojra',
+    ],
+    pics: [
+      'assets/images/Tobateksingh_01.jpg',
+      'assets/images/Tobateksingh_02.jpg',
+      'assets/images/Tobateksingh_03.jpg',
+      'assets/images/Tobateksingh_02.jpg',
     ],
   ),
   Famous(
@@ -775,6 +985,12 @@ const Famous_module = const [
       'Baba Haji Sher Dewan',
       'Baba Jinday Shah',
       'Khawaja Abu Bakar Waraq',
+    ],
+    pics: [
+      'assets/images/Vehari_01.jpg',
+      'assets/images/Vehari_02.jpg',
+      'assets/images/Vehari_03.jpg',
+      'assets/images/Vehari_02.jpg',
     ],
   ),
 ];

@@ -37,11 +37,11 @@ class _MainPageState extends State<MainPage> {
               child: Text(
                 'TourOn',
                 style: TextStyle(
-                  fontSize: 34,
-                  letterSpacing: 4,
-                  fontStyle: FontStyle.italic,
-                  fontWeight: FontWeight.w800,
-                ),
+                    fontSize: 34,
+                    letterSpacing: 4,
+                    fontStyle: FontStyle.italic,
+                    fontWeight: FontWeight.w800,
+                    fontFamily: 'appbar'),
               ),
             ),
             backgroundColor: MainPage.backHexColor,

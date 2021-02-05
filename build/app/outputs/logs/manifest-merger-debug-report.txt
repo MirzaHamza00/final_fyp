@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-68:12
-INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-68:12
-INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-68:12
-INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-68:12
-MERGED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-68:12
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-67:12
+INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-67:12
+INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-67:12
+INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-67:12
+MERGED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-67:12
 MERGED from [:fluttertoast] /Users/mirzahamza/Desktop/first_flutter/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:geolocator] /Users/mirzahamza/Desktop/first_flutter/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [:google_api_availability] /Users/mirzahamza/Desktop/first_flutter/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -13,45 +13,58 @@ MERGED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_
 MERGED from [:flutter_plugin_android_lifecycle] /Users/mirzahamza/Desktop/first_flutter/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:location_permissions] /Users/mirzahamza/Desktop/first_flutter/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:permission_handler] /Users/mirzahamza/Desktop/first_flutter/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [:permission] /Users/mirzahamza/Desktop/first_flutter/build/permission/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fb4c6e3bfc58bce3df86e0a0a333f230/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0b0bfda1a38cda4ec2cec1840ac1f31c/play-services-base-17.2.1/AndroidManifest.xml:17:1-29:12
-MERGED from [androidx.appcompat:appcompat:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a520ea65c8b5ff10a78b845343de3a72/appcompat-1.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fa9939eb1c3da16f1b3d36442d496bf0/play-services-tasks-17.0.2/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/aa4f169a5afa06e0a9a877b7b7cb90cf/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/424507e35f2d7c8041c2b03b65e21c82/jetified-play-services-basement-17.2.1/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1fef654aec37b1382fa964ecf40a7cca/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/09b672b71f72a54bcd56fe6e5962b529/activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1d3d8eede275145e62b52500be8a62ce/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/96d25c8572ab40632f4c1c83ab30c647/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/3703ce7c3265c46363a235e7ecf00ea9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/748e8f6281e2a81186c7e8c426f36d47/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/eb4d6636dc99206fa50dffce6fb6e3bd/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0ed6409f40a4cc06cb14fb317336064d/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1fa6c12e2d4f48d5122d6cea886850c8/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/dd93217685fa86865f24f2ff458dda84/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8a4e0da290bb0bf90acb06bc219587fd/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8cc305de9de03bb2fbdc7e42bb83b414/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/15711de0a625e883b05f3f343a845772/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/eb5a94739f3afb90b198af234e890b03/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/32ae89ad21bba0b882cc9c2a341a7d42/core-1.2.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4d0c26a5aeb220308c5774fdce65bf12/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/cc1bffb4c0e8c7c29f0955bd373038a1/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a4486279c9ada9d192f45108846ac8a0/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ef0004e6367b3298fae72e29a167630e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1857c3bf6583c4e8684d3106a7470ee1/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/3c7339579495295dc2c504bf39be17a0/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0d68071321b4312c6111f491dc36b221/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0bf56799db372fdc47ef44eeea8e4a72/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e3c99dced402146468174b5b1c07394f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0aab3e09d077039fa318726e94a12778/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6ffacb28ad1cd729c4cff0c6143cb9d4/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f1ee772b7c543ba993ec48731a611260/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fd7ce2da164e2427cb3f5be9be7299e5/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.multidex:multidex:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ab7d9f4edced15a307b0818334b27a47/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8f08fbb88ec5b03a6899b89279179533/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e55a2e2920bdd31c88eec7defe7c5bec/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ffd5d2143b0a413035fbe0c3ab94515f/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/7cefe3d189ad9b632d82ae4d4f78e170/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/253a8050301c240aceefb6d31de984a5/firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c53a7ab9c1cc899659121c3db811d0e8/play-services-base-17.2.1/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.appcompat:appcompat:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/92df133435ad7e439709af719a361b2b/appcompat-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:15:1-49:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/b6050e05db5f64174b29d82e6b5ece38/play-services-tasks-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2f87bec1992871aedb5a5fea00eab7b2/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1c66fa38c475f2649b50bbc5b6e2549c/jetified-play-services-basement-17.2.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e2d8fd2053232e3bb03b1e1327c829ee/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e16f2b99b0377011d4822300fce646ec/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/14a765b3b1276eec131cf3ac283f194e/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6fd9dd4b26d55ecdf30422ce210ea6ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/79150687b00f5ccb3c3c97e8787a47e2/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/3b4b0999d6ae20b4bb7fc1946b9d21f4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c6934590b3d21d44b9acdfc43af06874/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fb28f57f0e6cef9b5c173787b78f375e/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ace3703d61f3ccd3cd469184f2632ee5/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/5d07ec3d5e28d9db1dc141bb8ed9f978/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/72f0dd1404efd4bdeefe79fc3b33cb7c/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c029fc51b7064ab980b5230a85898ac8/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/33ecc70fcf27eeaca2b67ffec9c01e59/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/d6571951c811e9a59bfca73d2da4b620/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a2fe98000f66d6aaed4dc2c2de2bb0f9/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/bd32f0878f9592719aedee662500346c/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/196a37520b9c9d63cf3b7722eac726bb/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/70a7421e5a2f52e6df1cff98e9883d3f/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1cda0ef81799640fa282f42023935a59/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/04693bad0c9194e67fbf5eb6d7b410cb/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ad44e7c7c87c9fca11c0489622617a71/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/cfddf179ca6186c0b4d9924a80b920d6/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e579d91e229eae81c5c8339ccb76a911/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a62486cde2867e8c5c0a57e6fa91fa22/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e61f7863bf0353c0c7cf24fad1568b4b/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/911bc09d6848f29a32473d46973cb9ee/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4776f89b57e22f6c4139fc180cf0ca2c/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/31ac6d15a2a52e125e6c3c03199e6a48/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/d6392006afa9be5e1ff95d15c725af72/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/09b8d93c965a01a815b52fbc4d30e45a/grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/016f5315f4594213713376559ba62fd0/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/da555dd6b729c84a140d577411dd0b84/protolite-well-known-types-17.1.1/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -61,11 +74,11 @@ INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/debug/Andr
 		INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-68:12
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-67:12
 		INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-68:12
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:1-67:12
 		INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -73,8 +86,12 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:8:10-71
 MERGED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:8:10-71
 MERGED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:8:10-71
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:14:5-67
 	android:name
 		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:8:27-69
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -94,111 +111,113 @@ MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/i
 	android:name
 		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:10:28-87
 application
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:11:5-67:19
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:11:5-66:19
 MERGED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
 MERGED from [:image_picker] /Users/mirzahamza/Desktop/first_flutter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
 MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fb4c6e3bfc58bce3df86e0a0a333f230/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fb4c6e3bfc58bce3df86e0a0a333f230/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0b0bfda1a38cda4ec2cec1840ac1f31c/play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0b0bfda1a38cda4ec2cec1840ac1f31c/play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fa9939eb1c3da16f1b3d36442d496bf0/play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fa9939eb1c3da16f1b3d36442d496bf0/play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/aa4f169a5afa06e0a9a877b7b7cb90cf/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/aa4f169a5afa06e0a9a877b7b7cb90cf/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/424507e35f2d7c8041c2b03b65e21c82/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/424507e35f2d7c8041c2b03b65e21c82/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/32ae89ad21bba0b882cc9c2a341a7d42/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/32ae89ad21bba0b882cc9c2a341a7d42/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0d68071321b4312c6111f491dc36b221/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0d68071321b4312c6111f491dc36b221/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8f08fbb88ec5b03a6899b89279179533/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8f08fbb88ec5b03a6899b89279179533/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ffd5d2143b0a413035fbe0c3ab94515f/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ffd5d2143b0a413035fbe0c3ab94515f/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/7cefe3d189ad9b632d82ae4d4f78e170/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/7cefe3d189ad9b632d82ae4d4f78e170/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c53a7ab9c1cc899659121c3db811d0e8/play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c53a7ab9c1cc899659121c3db811d0e8/play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/b6050e05db5f64174b29d82e6b5ece38/play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/b6050e05db5f64174b29d82e6b5ece38/play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2f87bec1992871aedb5a5fea00eab7b2/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2f87bec1992871aedb5a5fea00eab7b2/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1c66fa38c475f2649b50bbc5b6e2549c/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1c66fa38c475f2649b50bbc5b6e2549c/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a2fe98000f66d6aaed4dc2c2de2bb0f9/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a2fe98000f66d6aaed4dc2c2de2bb0f9/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/cfddf179ca6186c0b4d9924a80b920d6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/cfddf179ca6186c0b4d9924a80b920d6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/32ae89ad21bba0b882cc9c2a341a7d42/core-1.2.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a2fe98000f66d6aaed4dc2c2de2bb0f9/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:14:9-38
 	android:icon
 		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:15:9-43
 	android:name
 		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:13:9-57
-meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:17:9-127
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:17:7-18:73
 	android:value
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:17:70-125
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:18:16-71
 	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:17:20-69
-meta-data#com.google.android.gms.version
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:18:9-121
-MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/424507e35f2d7c8041c2b03b65e21c82/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/424507e35f2d7c8041c2b03b65e21c82/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:18:66-119
-	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:18:20-65
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:17:18-63
 uses-library#org.apache.http.legacy
 ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:26:5-83
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 	android:required
 		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:26:57-81
 	android:name
 		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:26:19-56
-meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:27:5-119
-	android:value
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:27:62-117
-	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:27:16-61
 activity#com.naxcentsolution.first_flutter.MainActivity
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:28:9-60:20
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:27:9-59:20
 	android:launchMode
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:32:13-43
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:31:13-43
 	android:hardwareAccelerated
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:36:13-47
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:35:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:29:9-51
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:28:9-51
 	android:configChanges
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:34:14-145
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:33:14-145
 	android:theme
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:33:13-47
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:32:13-47
 	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:31:13-41
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:30:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:43:13-46:17
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:42:13-45:17
 	android:resource
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:45:15-52
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:44:15-52
 	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:44:15-70
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:43:15-70
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:52:13-55:17
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:51:13-54:17
 	android:resource
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:54:15-61
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:53:15-61
 	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:53:15-79
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:52:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:56:13-59:29
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:55:13-58:29
 action#android.intent.action.MAIN
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:57:17-68
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:56:17-68
 	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:57:25-66
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:58:17-76
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:57:17-76
 	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:58:27-74
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:57:27-74
 meta-data#flutterEmbedding
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:63:9-65:33
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:62:9-64:33
 	android:value
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:65:13-30
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:64:13-30
 	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:64:13-44
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:63:13-44
 activity#com.apptreesoftware.mapview.MapActivity
-ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:66:14-139
+ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:65:14-139
 	android:theme
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:66:79-137
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:65:79-137
 	android:name
-		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:66:24-78
+		ADDED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml:65:24-78
 uses-sdk
 INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/main/AndroidManifest.xml
@@ -219,84 +238,110 @@ MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_la
 MERGED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:location_permissions] /Users/mirzahamza/Desktop/first_flutter/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:location_permissions] /Users/mirzahamza/Desktop/first_flutter/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /Users/mirzahamza/Desktop/first_flutter/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /Users/mirzahamza/Desktop/first_flutter/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:location] /Users/mirzahamza/Desktop/first_flutter/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission] /Users/mirzahamza/Desktop/first_flutter/build/permission/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission] /Users/mirzahamza/Desktop/first_flutter/build/permission/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fb4c6e3bfc58bce3df86e0a0a333f230/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fb4c6e3bfc58bce3df86e0a0a333f230/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0b0bfda1a38cda4ec2cec1840ac1f31c/play-services-base-17.2.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0b0bfda1a38cda4ec2cec1840ac1f31c/play-services-base-17.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a520ea65c8b5ff10a78b845343de3a72/appcompat-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a520ea65c8b5ff10a78b845343de3a72/appcompat-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fa9939eb1c3da16f1b3d36442d496bf0/play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fa9939eb1c3da16f1b3d36442d496bf0/play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/aa4f169a5afa06e0a9a877b7b7cb90cf/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/aa4f169a5afa06e0a9a877b7b7cb90cf/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/424507e35f2d7c8041c2b03b65e21c82/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/424507e35f2d7c8041c2b03b65e21c82/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1fef654aec37b1382fa964ecf40a7cca/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1fef654aec37b1382fa964ecf40a7cca/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/09b672b71f72a54bcd56fe6e5962b529/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/09b672b71f72a54bcd56fe6e5962b529/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1d3d8eede275145e62b52500be8a62ce/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1d3d8eede275145e62b52500be8a62ce/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/96d25c8572ab40632f4c1c83ab30c647/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/96d25c8572ab40632f4c1c83ab30c647/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/3703ce7c3265c46363a235e7ecf00ea9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/3703ce7c3265c46363a235e7ecf00ea9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/748e8f6281e2a81186c7e8c426f36d47/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/748e8f6281e2a81186c7e8c426f36d47/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/eb4d6636dc99206fa50dffce6fb6e3bd/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/eb4d6636dc99206fa50dffce6fb6e3bd/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0ed6409f40a4cc06cb14fb317336064d/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0ed6409f40a4cc06cb14fb317336064d/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1fa6c12e2d4f48d5122d6cea886850c8/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1fa6c12e2d4f48d5122d6cea886850c8/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/dd93217685fa86865f24f2ff458dda84/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/dd93217685fa86865f24f2ff458dda84/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8a4e0da290bb0bf90acb06bc219587fd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8a4e0da290bb0bf90acb06bc219587fd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8cc305de9de03bb2fbdc7e42bb83b414/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8cc305de9de03bb2fbdc7e42bb83b414/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/15711de0a625e883b05f3f343a845772/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/15711de0a625e883b05f3f343a845772/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/eb5a94739f3afb90b198af234e890b03/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/eb5a94739f3afb90b198af234e890b03/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/32ae89ad21bba0b882cc9c2a341a7d42/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/32ae89ad21bba0b882cc9c2a341a7d42/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4d0c26a5aeb220308c5774fdce65bf12/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4d0c26a5aeb220308c5774fdce65bf12/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/cc1bffb4c0e8c7c29f0955bd373038a1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/cc1bffb4c0e8c7c29f0955bd373038a1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a4486279c9ada9d192f45108846ac8a0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a4486279c9ada9d192f45108846ac8a0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ef0004e6367b3298fae72e29a167630e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ef0004e6367b3298fae72e29a167630e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1857c3bf6583c4e8684d3106a7470ee1/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1857c3bf6583c4e8684d3106a7470ee1/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/3c7339579495295dc2c504bf39be17a0/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/3c7339579495295dc2c504bf39be17a0/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0d68071321b4312c6111f491dc36b221/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0d68071321b4312c6111f491dc36b221/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0bf56799db372fdc47ef44eeea8e4a72/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0bf56799db372fdc47ef44eeea8e4a72/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e3c99dced402146468174b5b1c07394f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e3c99dced402146468174b5b1c07394f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0aab3e09d077039fa318726e94a12778/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0aab3e09d077039fa318726e94a12778/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6ffacb28ad1cd729c4cff0c6143cb9d4/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6ffacb28ad1cd729c4cff0c6143cb9d4/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f1ee772b7c543ba993ec48731a611260/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f1ee772b7c543ba993ec48731a611260/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fd7ce2da164e2427cb3f5be9be7299e5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fd7ce2da164e2427cb3f5be9be7299e5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.multidex:multidex:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ab7d9f4edced15a307b0818334b27a47/multidex-2.0.0/AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ab7d9f4edced15a307b0818334b27a47/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8f08fbb88ec5b03a6899b89279179533/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/8f08fbb88ec5b03a6899b89279179533/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e55a2e2920bdd31c88eec7defe7c5bec/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e55a2e2920bdd31c88eec7defe7c5bec/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ffd5d2143b0a413035fbe0c3ab94515f/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ffd5d2143b0a413035fbe0c3ab94515f/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/7cefe3d189ad9b632d82ae4d4f78e170/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/7cefe3d189ad9b632d82ae4d4f78e170/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/253a8050301c240aceefb6d31de984a5/firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/253a8050301c240aceefb6d31de984a5/firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c53a7ab9c1cc899659121c3db811d0e8/play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c53a7ab9c1cc899659121c3db811d0e8/play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/92df133435ad7e439709af719a361b2b/appcompat-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/92df133435ad7e439709af719a361b2b/appcompat-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/b6050e05db5f64174b29d82e6b5ece38/play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/b6050e05db5f64174b29d82e6b5ece38/play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2f87bec1992871aedb5a5fea00eab7b2/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/2f87bec1992871aedb5a5fea00eab7b2/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1c66fa38c475f2649b50bbc5b6e2549c/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1c66fa38c475f2649b50bbc5b6e2549c/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e2d8fd2053232e3bb03b1e1327c829ee/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e2d8fd2053232e3bb03b1e1327c829ee/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e16f2b99b0377011d4822300fce646ec/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e16f2b99b0377011d4822300fce646ec/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/14a765b3b1276eec131cf3ac283f194e/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/14a765b3b1276eec131cf3ac283f194e/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6fd9dd4b26d55ecdf30422ce210ea6ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/6fd9dd4b26d55ecdf30422ce210ea6ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/79150687b00f5ccb3c3c97e8787a47e2/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/79150687b00f5ccb3c3c97e8787a47e2/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/3b4b0999d6ae20b4bb7fc1946b9d21f4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/3b4b0999d6ae20b4bb7fc1946b9d21f4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c6934590b3d21d44b9acdfc43af06874/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c6934590b3d21d44b9acdfc43af06874/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fb28f57f0e6cef9b5c173787b78f375e/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/fb28f57f0e6cef9b5c173787b78f375e/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ace3703d61f3ccd3cd469184f2632ee5/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ace3703d61f3ccd3cd469184f2632ee5/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/5d07ec3d5e28d9db1dc141bb8ed9f978/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/5d07ec3d5e28d9db1dc141bb8ed9f978/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/72f0dd1404efd4bdeefe79fc3b33cb7c/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/72f0dd1404efd4bdeefe79fc3b33cb7c/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c029fc51b7064ab980b5230a85898ac8/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c029fc51b7064ab980b5230a85898ac8/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/33ecc70fcf27eeaca2b67ffec9c01e59/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/33ecc70fcf27eeaca2b67ffec9c01e59/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/d6571951c811e9a59bfca73d2da4b620/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/d6571951c811e9a59bfca73d2da4b620/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a2fe98000f66d6aaed4dc2c2de2bb0f9/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a2fe98000f66d6aaed4dc2c2de2bb0f9/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/bd32f0878f9592719aedee662500346c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/bd32f0878f9592719aedee662500346c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/196a37520b9c9d63cf3b7722eac726bb/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/196a37520b9c9d63cf3b7722eac726bb/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/70a7421e5a2f52e6df1cff98e9883d3f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/70a7421e5a2f52e6df1cff98e9883d3f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1cda0ef81799640fa282f42023935a59/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1cda0ef81799640fa282f42023935a59/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/04693bad0c9194e67fbf5eb6d7b410cb/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/04693bad0c9194e67fbf5eb6d7b410cb/exifinterface-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ad44e7c7c87c9fca11c0489622617a71/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/ad44e7c7c87c9fca11c0489622617a71/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/cfddf179ca6186c0b4d9924a80b920d6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/cfddf179ca6186c0b4d9924a80b920d6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e579d91e229eae81c5c8339ccb76a911/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e579d91e229eae81c5c8339ccb76a911/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a62486cde2867e8c5c0a57e6fa91fa22/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/a62486cde2867e8c5c0a57e6fa91fa22/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e61f7863bf0353c0c7cf24fad1568b4b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/e61f7863bf0353c0c7cf24fad1568b4b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/911bc09d6848f29a32473d46973cb9ee/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/911bc09d6848f29a32473d46973cb9ee/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4776f89b57e22f6c4139fc180cf0ca2c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4776f89b57e22f6c4139fc180cf0ca2c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/31ac6d15a2a52e125e6c3c03199e6a48/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/31ac6d15a2a52e125e6c3c03199e6a48/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/d6392006afa9be5e1ff95d15c725af72/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/d6392006afa9be5e1ff95d15c725af72/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/09b8d93c965a01a815b52fbc4d30e45a/grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/09b8d93c965a01a815b52fbc4d30e45a/grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/016f5315f4594213713376559ba62fd0/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/016f5315f4594213713376559ba62fd0/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/da555dd6b729c84a140d577411dd0b84/protolite-well-known-types-17.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/da555dd6b729c84a140d577411dd0b84/protolite-well-known-types-17.1.1/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/mirzahamza/Desktop/first_flutter/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -337,21 +382,163 @@ ADDED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_lau
 		ADDED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
 	android:name
 		ADDED from [:url_launcher] /Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/f3c7dcc2a8b383eeea4b2e7c2c5d6bdc/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0b0bfda1a38cda4ec2cec1840ac1f31c/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0b0bfda1a38cda4ec2cec1840ac1f31c/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0b0bfda1a38cda4ec2cec1840ac1f31c/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:76:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/0b0bfda1a38cda4ec2cec1840ac1f31c/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+		ADDED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/mirzahamza/Desktop/first_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/mirzahamza/Desktop/first_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/mirzahamza/Desktop/first_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/09b8d93c965a01a815b52fbc4d30e45a/grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/09b8d93c965a01a815b52fbc4d30e45a/grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/56016919b0c9f7a78e689a0a22cfb3a0/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/4a5c66b363035ee03f82e79947a180c5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:22.0.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/deefb8179f6210fe46e47619fafdfcb7/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:21:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c53a7ab9c1cc899659121c3db811d0e8/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c53a7ab9c1cc899659121c3db811d0e8/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c53a7ab9c1cc899659121c3db811d0e8/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/c53a7ab9c1cc899659121c3db811d0e8/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/302f42ce6c5198aef63b9bac95edb3a8/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1c66fa38c475f2649b50bbc5b6e2549c/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1c66fa38c475f2649b50bbc5b6e2549c/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/1c66fa38c475f2649b50bbc5b6e2549c/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58

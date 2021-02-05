@@ -4,7 +4,7 @@
             "outputFile": "/Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/res/merged/debug/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/bafbdbf353af8924becc6f786b1e0bbb/core-1.1.0/res/values-sq/values-sq.xml",
+                    "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/167ba56df2418353eacaf24cb565a8b5/core-1.1.0/res/values-sq/values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "/Users/mirzahamza/Desktop/first_flutter/build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/bafbdbf353af8924becc6f786b1e0bbb/core-1.1.0/res/values-sq/values-sq.xml",
+                    "source": "/Users/mirzahamza/.gradle/caches/transforms-2/files-2.1/167ba56df2418353eacaf24cb565a8b5/core-1.1.0/res/values-sq/values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

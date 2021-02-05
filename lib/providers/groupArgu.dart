@@ -11,6 +11,7 @@ class FamousArguments {
   final List<String> historical;
   final List<String> cultural;
   final List<String> religious;
+  final List<String> pics;
 
   FamousArguments(
     this.id,
@@ -18,5 +19,6 @@ class FamousArguments {
     this.historical,
     this.cultural,
     this.religious,
+    this.pics,
   );
 }

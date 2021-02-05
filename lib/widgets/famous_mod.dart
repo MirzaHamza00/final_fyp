@@ -9,6 +9,7 @@ class FamousMod extends StatelessWidget {
   final List<String> historical;
   final List<String> cultural;
   final List<String> religious;
+  final List<String> pics;
 
   FamousMod(
     this.id,
@@ -18,13 +19,15 @@ class FamousMod extends StatelessWidget {
     this.historical,
     this.cultural,
     this.religious,
+    this.pics,
   );
 
   navigatorPlace(
-      String id, context, String title, historical, cultural, religious) {
+      String id, context, String title, historical, cultural, religious, pics) {
     Navigator.of(context).pushNamed(
       'famousDetail',
-      arguments: FamousArguments(id, title, historical, cultural, religious),
+      arguments:
+          FamousArguments(id, title, historical, cultural, religious, pics),
     );
   }
 
@@ -36,7 +39,7 @@ class FamousMod extends StatelessWidget {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            color.withOpacity(0.5),
+            color.withOpacity(0.8),
             color.withOpacity(0.9),
           ],
           begin: Alignment.topCenter,
@@ -46,7 +49,8 @@ class FamousMod extends StatelessWidget {
       ),
       child: InkWell(
         onTap: () {
-          navigatorPlace(id, context, title, historical, cultural, religious);
+          navigatorPlace(
+              id, context, title, historical, cultural, religious, pics);
         },
         splashColor: color,
         borderRadius: BorderRadius.circular(15),
@@ -75,9 +79,10 @@ class FamousMod extends StatelessWidget {
                   child: Text(
                     title,
                     style: TextStyle(
+                      fontFamily: 'famous',
                       color: Color(0xff233259),
                       fontSize: deviceOrient != Orientation.landscape
-                          ? deviceSize.width * 0.045
+                          ? deviceSize.width * 0.04
                           : 14,
                       fontWeight: FontWeight.w600,
                     ),

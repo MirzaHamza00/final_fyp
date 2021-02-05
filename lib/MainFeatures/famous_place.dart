@@ -28,6 +28,7 @@ class _FamousPlaceState extends State<FamousPlace> {
               letterSpacing: 1,
               fontStyle: FontStyle.normal,
               fontWeight: FontWeight.w800,
+              //   fontFamily: 'appbar'
             ),
           ),
         ),
@@ -63,6 +64,7 @@ Expanded buildGridView(context) {
             catData.historical,
             catData.cultural,
             catData.religous,
+            catData.pics,
           ),
         ).toList(),
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(

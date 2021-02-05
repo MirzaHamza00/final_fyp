@@ -43,7 +43,14 @@ class _CostEstimateState extends State<CostEstimate> {
         },
         child: Scaffold(
           appBar: AppBar(
-            title: Text('Cost Estimation'),
+            title: Text(
+              'Cost Estimation',
+              style: TextStyle(
+                // fontFamily: 'appbar',
+                fontWeight: FontWeight.w600,
+                fontSize: 24,
+              ),
+            ),
             backgroundColor: backHexColor,
           ),
           backgroundColor: Color(0xff262E5E),

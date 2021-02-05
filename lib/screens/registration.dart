@@ -1,3 +1,4 @@
+import 'package:first_flutter/services/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
@@ -128,6 +129,8 @@ class _AuthCardState extends State<AuthCard> {
   Map<String, String> _authData = {
     'email': '',
     'password': '',
+    'phone': '',
+    'name': '',
   };
   static const Color buttonHexColor = Color(0xff3345c5);
   static const Color backHexColor = Color(0xff1D2553);
@@ -146,13 +149,19 @@ class _AuthCardState extends State<AuthCard> {
   static final RegExp emailRegExp =
       RegExp('^(([a-zA-Z]+)([a-zA-Z0-9_]*)(.|_))+(\@)([a-zA-Z]+)(\.com)');
 
+  var errorMessage;
   Future<void> _submit() async {
     if (!_formKey.currentState.validate()) {
       // Invalid!
       return;
     }
     _formKey.currentState.save();
-    Navigator.of(context).pushReplacementNamed('mainpage');
+    await AuthService().signupWithemailandPassword(
+        _authData['email'],
+        _authData['password'],
+        _authData['name'],
+        _authData['phone'].toString(),
+        context);
   }
 
   @override
@@ -191,6 +200,7 @@ class _AuthCardState extends State<AuthCard> {
                       fontSize: 20,
                     ),
                     cursorColor: Colors.pink,
+                    textCapitalization: TextCapitalization.words,
                     decoration: InputDecoration(
                       contentPadding: new EdgeInsets.all(10),
                       fillColor: fieldHexColor,
@@ -242,9 +252,14 @@ class _AuthCardState extends State<AuthCard> {
                     },
                     validator: (value) => value.isEmpty
                         ? 'Enter Name'
-                        : (nameRegExp.hasMatch(value) ? null : 'InValid Name'),
+                        : (nameRegExp.hasMatch(value)
+                                    ? null
+                                    : 'InValid Name') ??
+                                value.length < 2
+                            ? 'Name character must be greater than 2'
+                            : null,
                     onSaved: (value) {
-                      _authData['firstName'] = value;
+                      _authData['name'] = value.trim();
                     },
                   ),
                 ),
@@ -323,7 +338,7 @@ class _AuthCardState extends State<AuthCard> {
                             ? null
                             : 'Enter Valid Email'),
                     onSaved: (value) {
-                      _authData['email'] = value;
+                      _authData['email'] = value.trim();
                     },
                   ),
                 ),
@@ -344,10 +359,10 @@ class _AuthCardState extends State<AuthCard> {
                     keyboardType: TextInputType.number,
                     inputFormatters: [
                       FilteringTextInputFormatter.digitsOnly,
-                      NumberFormatter(),
+                      //    NumberFormatter(),
                     ],
                     //    controller: controllerNumber,
-                    maxLength: 12,
+                    maxLength: 11,
                     decoration: InputDecoration(
                       contentPadding: new EdgeInsets.all(10),
                       fillColor: fieldHexColor,
@@ -403,11 +418,11 @@ class _AuthCardState extends State<AuthCard> {
                         : (noRegExp.hasMatch(value)
                                     ? null
                                     : 'Enter Valid Number') ??
-                                value.length != 12
+                                value.length != 11
                             ? 'Enter Complete Number'
                             : null,
                     onSaved: (value) {
-                      _authData['phone'] = value;
+                      _authData['phone'] = value.trim();
                     },
                   ),
                 ),
@@ -497,7 +512,7 @@ class _AuthCardState extends State<AuthCard> {
                       return null;
                     },
                     onSaved: (value) {
-                      _authData['password'] = value;
+                      _authData['password'] = value.trim();
                     },
                   ),
                 ),
@@ -587,9 +602,6 @@ class _AuthCardState extends State<AuthCard> {
                       }
 
                       return null;
-                    },
-                    onSaved: (value) {
-                      _authData['confirmPass'] = value;
                     },
                   ),
                 ),

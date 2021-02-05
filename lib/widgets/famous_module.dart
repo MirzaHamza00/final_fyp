@@ -8,6 +8,7 @@ class Famous {
   final List<String> historical;
   final List<String> cultural;
   final List<String> religous;
+  final List<String> pics;
   const Famous({
     @required this.id,
     @required this.title,
@@ -16,5 +17,6 @@ class Famous {
     @required this.historical,
     @required this.cultural,
     @required this.religous,
+    @required this.pics,
   });
 }

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "135219042913",
+    "project_id": "touron-49530",
+    "storage_bucket": "touron-49530.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135219042913:android:26882e269fde3937e5a820",
+        "android_client_info": {
+          "package_name": "com.naxcentsolution.first_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135219042913-i721fv7a9i5o2npe3e7ntt1rpolii7gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naxcentsolution.first_flutter",
+            "certificate_hash": "bd8e246e33bbb416e0edfe83c83c84c47afdc6e1"
+          }
+        },
+        {
+          "client_id": "135219042913-rseg3gslnvam127d9rp80jd4et1dob7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjLbN1IZ95NbGo4eiw-cR-7nf6r6Q96YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135219042913-rseg3gslnvam127d9rp80jd4et1dob7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

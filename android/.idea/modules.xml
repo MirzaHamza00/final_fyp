@@ -5,9 +5,20 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" group="android" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="android/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/67457882/flutter_plugin_android_lifecycle.iml" filepath="$PROJECT_DIR$/.idea/modules/67457882/flutter_plugin_android_lifecycle.iml" group="android/flutter_plugin_android_lifecycle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2030942346/fluttertoast.iml" filepath="$PROJECT_DIR$/.idea/modules/-2030942346/fluttertoast.iml" group="android/fluttertoast" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1737918864/geolocator.iml" filepath="$PROJECT_DIR$/.idea/modules/1737918864/geolocator.iml" group="android/geolocator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/740483638/google_api_availability.iml" filepath="$PROJECT_DIR$/.idea/modules/740483638/google_api_availability.iml" group="android/google_api_availability" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1034023705/google_maps_flutter.iml" filepath="$PROJECT_DIR$/.idea/modules/-1034023705/google_maps_flutter.iml" group="android/google_maps_flutter" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1535525257/image_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1535525257/image_picker.iml" group="android/image_picker" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2023641187/location.iml" filepath="$PROJECT_DIR$/.idea/modules/-2023641187/location.iml" group="android/location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1032007716/location.iml" filepath="$PROJECT_DIR$/.idea/modules/1032007716/location.iml" group="android/location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-776958875/location_permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-776958875/location_permissions.iml" group="android/location_permissions" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1880871547/permission.iml" filepath="$PROJECT_DIR$/.idea/modules/1880871547/permission.iml" group="android/permission" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-323263164/permission_handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-323263164/permission_handler.iml" group="android/permission_handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-58596369/url_launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/-58596369/url_launcher.iml" group="android/url_launcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1894004403/url_launcher_linux.iml" filepath="$PROJECT_DIR$/.idea/modules/1894004403/url_launcher_linux.iml" group="android/url_launcher_linux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/548785719/url_launcher_macos.iml" filepath="$PROJECT_DIR$/.idea/modules/548785719/url_launcher_macos.iml" group="android/url_launcher_macos" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1200640277/url_launcher_web.iml" filepath="$PROJECT_DIR$/.idea/modules/1200640277/url_launcher_web.iml" group="android/url_launcher_web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/655368129/url_launcher_windows.iml" filepath="$PROJECT_DIR$/.idea/modules/655368129/url_launcher_windows.iml" group="android/url_launcher_windows" />
     </modules>
   </component>
 </project>

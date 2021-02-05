@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd90845d-6108-4151-9cc0-8c69a984896d" name="Default Changelist" comment="" />
+    <list default="true" id="1bfbedb5-8508-42a8-bf1b-f9d18b6395de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/MainFeatures/pooling_tour.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/MainFeatures/pooling_tour.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/SideFeatures/nearBy_Places.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/SideFeatures/nearBy_Places.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/SideFeatures/wether.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/SideFeatures/wether.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/models/app_drawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/models/app_drawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/models/main_detail.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/models/place_detail.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/screens/auth_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/screens/auth_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/screens/main_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/screens/main_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/screens/main_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/screens/main_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/screens/registration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/screens/registration.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/screens/start.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/screens/start.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/widgets/main_module.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/widgets/main_module.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/widgets/nearBy_place_module.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +36,6 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
         <task path="$PROJECT_DIR$/app">
           <activation />
         </task>
@@ -37,11 +49,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="android" type="c8890929:TasksNode$1" />
               </path>
@@ -52,7 +71,11 @@
       </state>
     </system>
   </component>
-  <component name="ProjectId" id="1l9h5h6TMqvh4IvAB6vCxS7lSHF" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1o3c5niNEM0P4ttWnmASesI5T00" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,7 +87,7 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Gradle.android [signingReport]">
+  <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -123,60 +146,36 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="android [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="signingReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.android [signingReport]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dd90845d-6108-4151-9cc0-8c69a984896d" name="Default Changelist" comment="" />
-      <created>1607015032339</created>
+      <changelist id="1bfbedb5-8508-42a8-bf1b-f9d18b6395de" name="Default Changelist" comment="" />
+      <created>1612518533187</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607015032339</updated>
+      <updated>1612518533187</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1218" height="160" key="GridCell.Tab.0.bottom" timestamp="1607016571883">
-      <screen x="0" y="25" width="1280" height="700" />
+    <state width="1218" height="160" key="GridCell.Tab.0.bottom" timestamp="1612518601305">
+      <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1218" height="160" key="GridCell.Tab.0.bottom/0.25.1280.700@0.25.1280.700" timestamp="1607016571883" />
-    <state width="1218" height="160" key="GridCell.Tab.0.center" timestamp="1607016571882">
-      <screen x="0" y="25" width="1280" height="700" />
+    <state width="1218" height="160" key="GridCell.Tab.0.bottom/0.25.1280.702@0.25.1280.702" timestamp="1612518601305" />
+    <state width="1218" height="160" key="GridCell.Tab.0.center" timestamp="1612518601304">
+      <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1218" height="160" key="GridCell.Tab.0.center/0.25.1280.700@0.25.1280.700" timestamp="1607016571882" />
-    <state width="1218" height="160" key="GridCell.Tab.0.left" timestamp="1607016571881">
-      <screen x="0" y="25" width="1280" height="700" />
+    <state width="1218" height="160" key="GridCell.Tab.0.center/0.25.1280.702@0.25.1280.702" timestamp="1612518601304" />
+    <state width="1218" height="160" key="GridCell.Tab.0.left" timestamp="1612518601304">
+      <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1218" height="160" key="GridCell.Tab.0.left/0.25.1280.700@0.25.1280.700" timestamp="1607016571881" />
-    <state width="1218" height="160" key="GridCell.Tab.0.right" timestamp="1607016571883">
-      <screen x="0" y="25" width="1280" height="700" />
+    <state width="1218" height="160" key="GridCell.Tab.0.left/0.25.1280.702@0.25.1280.702" timestamp="1612518601304" />
+    <state width="1218" height="160" key="GridCell.Tab.0.right" timestamp="1612518601304">
+      <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state width="1218" height="160" key="GridCell.Tab.0.right/0.25.1280.700@0.25.1280.700" timestamp="1607016571883" />
+    <state width="1218" height="160" key="GridCell.Tab.0.right/0.25.1280.702@0.25.1280.702" timestamp="1612518601304" />
   </component>
 </project>
